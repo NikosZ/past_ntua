@@ -1,0 +1,10 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+char_str	/home/zinc/ntua/pl1/sira2/bgry-ml/new.ml	/^let char_str clist= String.concat "" (List.map (Printf.sprintf "%c") clist);;$/;"	v	language:OCaml
+char_str	/home/zinc/ntua/pl1/sira2/bgry-ml/sample.ml	/^let char_str clist= String.concat "" (List.map (Printf.sprintf "%c") clist);;$/;"	v	language:OCaml
+char_str	/home/zinc/ntua/pl1/sira2/bgry-ml/Sm.ml	/^let char_str clist= String.concat "" (List.map (Printf.sprintf "%c") clist);;$/;"	v	language:OCaml
+New	/home/zinc/ntua/pl1/sira2/bgry-ml/new.ml	1;"	M	language:OCaml
+Sample	/home/zinc/ntua/pl1/sira2/bgry-ml/sample.ml	1;"	M	language:OCaml
+Sm	/home/zinc/ntua/pl1/sira2/bgry-ml/Sm.ml	1;"	M	language:OCaml
+SS	/home/zinc/ntua/pl1/sira2/bgry-ml/new.ml	1;"	M	language:OCaml
+SS	/home/zinc/ntua/pl1/sira2/bgry-ml/sample.ml	1;"	M	language:OCaml
+SS	/home/zinc/ntua/pl1/sira2/bgry-ml/Sm.ml	1;"	M	language:OCaml

@@ -1,0 +1,808 @@
+desc: (none)
+cmd: ./a.out hot_testcase2.txt
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=263843371
+mem_heap_B=208274594
+mem_heap_extra_B=1685814
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=473543009
+mem_heap_B=214730436
+mem_heap_extra_B=3563676
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=624382580
+mem_heap_B=219285508
+mem_heap_extra_B=5336700
+mem_stacks_B=0
+heap_tree=detailed
+n6: 219285508 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 201326648 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 5063198 0x402449: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 5063198 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 4758440 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 4758440 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 4758280 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 4758280 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 160 in 1 place, below massif's threshold (01.00%)
+ n1: 4116000 0x403631: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 4116000 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 4116000 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 2646488 0x402433: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 2646488 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n0: 1374734 in 20 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=4
+#-----------
+time=781113615
+mem_heap_B=224163766
+mem_heap_extra_B=7264906
+mem_stacks_B=0
+heap_tree=detailed
+n6: 224163766 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 201326648 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 6189760 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 6189760 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 6189600 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 6189600 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 160 in 1 place, below massif's threshold (01.00%)
+ n1: 6089220 0x402449: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 6089220 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 5315520 0x403631: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 5315520 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 5315520 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 3495340 0x402433: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 3495340 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n0: 1747278 in 20 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=5
+#-----------
+time=1067842751
+mem_heap_B=232568114
+mem_heap_extra_B=10666782
+mem_stacks_B=0
+heap_tree=detailed
+n6: 232568114 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 201326648 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 8700280 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 8700280 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 8700120 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 8700120 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 160 in 1 place, below massif's threshold (01.00%)
+ n1: 8021726 0x402449: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 8021726 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 7412640 0x403631: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 7412640 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 7412640 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 4979400 0x402433: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 4979400 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n0: 2127420 in 20 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=6
+#-----------
+time=1311258908
+mem_heap_B=239820208
+mem_heap_extra_B=13291648
+mem_stacks_B=0
+heap_tree=detailed
+n6: 239820208 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 201326648 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 10907880 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 10907880 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 10907720 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 10907720 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 160 in 1 place, below massif's threshold (01.00%)
+ n1: 9534154 0x402449: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 9534154 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 9243360 0x403631: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 9243360 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 9243360 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 6359436 0x402433: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 6359436 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n0: 2448730 in 20 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=7
+#-----------
+time=1552655908
+mem_heap_B=247394036
+mem_heap_extra_B=15709996
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=1776195112
+mem_heap_B=253852774
+mem_heap_extra_B=17887426
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=2074543143
+mem_heap_B=263101630
+mem_heap_extra_B=20900138
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=2265377574
+mem_heap_B=268706214
+mem_heap_extra_B=22718410
+mem_stacks_B=0
+heap_tree=detailed
+n6: 268706214 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 201326648 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 19936480 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 19936480 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 19936320 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 19936320 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 160 in 1 place, below massif's threshold (01.00%)
+ n1: 16680000 0x403631: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 16680000 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 16680000 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 14585414 0x402449: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 14585414 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 12191344 0x402433: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 12191344 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n0: 3986328 in 20 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=11
+#-----------
+time=2411717217
+mem_heap_B=273127034
+mem_heap_extra_B=24155558
+mem_stacks_B=0
+heap_tree=detailed
+n6: 273127034 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 201326648 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 21329000 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 21329000 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 21328840 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 21328840 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 160 in 1 place, below massif's threshold (01.00%)
+ n1: 17834400 0x403631: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 17834400 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 17834400 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 15367694 0x402449: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 15367694 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 13096000 0x402433: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 13096000 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n0: 4173292 in 20 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=12
+#-----------
+time=2589273922
+mem_heap_B=278434404
+mem_heap_extra_B=25904100
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=2801732525
+mem_heap_B=284993420
+mem_heap_extra_B=27848668
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=2933688968
+mem_heap_B=288747552
+mem_heap_extra_B=29096176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=3118773947
+mem_heap_B=294388316
+mem_heap_extra_B=30963916
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=3317853664
+mem_heap_B=300079400
+mem_heap_extra_B=32848576
+mem_stacks_B=0
+heap_tree=detailed
+n6: 300079400 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 201326648 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 29688440 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 29688440 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 29688280 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 29688280 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 160 in 1 place, below massif's threshold (01.00%)
+ n1: 24664320 0x403631: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 24664320 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 24664320 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 20001710 0x402449: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 20001710 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 18458436 0x402433: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 18458436 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n0: 5939846 in 20 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=17
+#-----------
+time=3598361758
+mem_heap_B=308642546
+mem_heap_extra_B=35538574
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=3797446109
+mem_heap_B=314824150
+mem_heap_extra_B=37370762
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=3942079186
+mem_heap_B=319333940
+mem_heap_extra_B=38711380
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=4170821916
+mem_heap_B=326466560
+mem_heap_extra_B=40810992
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=4366429939
+mem_heap_B=332536870
+mem_heap_extra_B=42616378
+mem_stacks_B=0
+heap_tree=detailed
+n6: 332536870 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 201326648 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 40131600 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 40131600 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 40131440 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 40131440 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 160 in 1 place, below massif's threshold (01.00%)
+ n1: 33202560 0x403631: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 33202560 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 33202560 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 25721168 0x402433: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 25721168 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 24867236 0x402449: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 24867236 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n0: 7287658 in 20 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=22
+#-----------
+time=4612457631
+mem_heap_B=340025988
+mem_heap_extra_B=44837196
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=4759979370
+mem_heap_B=344281426
+mem_heap_extra_B=46105326
+mem_stacks_B=0
+heap_tree=detailed
+n6: 344281426 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 201326648 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 44031200 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 44031200 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 44031040 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 44031040 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 160 in 1 place, below massif's threshold (01.00%)
+ n1: 36343680 0x403631: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 36343680 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 36343680 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 28427892 0x402433: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 28427892 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 26395010 0x402449: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 26395010 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n0: 7756996 in 20 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=24
+#-----------
+time=4916193409
+mem_heap_B=348980022
+mem_heap_extra_B=47491690
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=5122609289
+mem_heap_B=355030612
+mem_heap_extra_B=49292484
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=5337649697
+mem_heap_B=362904000
+mem_heap_extra_B=51227832
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=5509735994
+mem_heap_B=368763862
+mem_heap_extra_B=52932250
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=5702126814
+mem_heap_B=375123734
+mem_heap_extra_B=54783730
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=5907139222
+mem_heap_B=381837510
+mem_heap_extra_B=56747074
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=6112631576
+mem_heap_B=388606598
+mem_heap_extra_B=58721026
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=6383270382
+mem_heap_B=397209302
+mem_heap_extra_B=61262578
+mem_stacks_B=0
+heap_tree=detailed
+n6: 397209302 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 201326648 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 60841480 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 60841480 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 60841320 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 60841320 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 160 in 1 place, below massif's threshold (01.00%)
+ n1: 50241600 0x403631: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 50241600 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 50241600 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 40364540 0x402433: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 40364540 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 33277114 0x402449: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 33277114 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n0: 11157920 in 20 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=32
+#-----------
+time=6611268520
+mem_heap_B=404174814
+mem_heap_extra_B=63316794
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=6812605924
+mem_heap_B=410598866
+mem_heap_extra_B=65189702
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=6962960652
+mem_heap_B=415296156
+mem_heap_extra_B=66563308
+mem_stacks_B=0
+heap_tree=detailed
+n7: 415296156 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 201326648 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 66727200 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 66727200 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 66727040 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 66727040 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 160 in 1 place, below massif's threshold (01.00%)
+ n1: 55094880 0x403631: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 55094880 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 55094880 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 44533932 0x402433: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 44533932 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 35721118 0x402449: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 35721118 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n0: 6944126 in 19 places, all below massif's threshold (01.00%)
+ n1: 4948252 0x403859: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 4948252 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 4948252 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+#-----------
+snapshot=35
+#-----------
+time=7200525877
+mem_heap_B=422772722
+mem_heap_extra_B=68772822
+mem_stacks_B=0
+heap_tree=detailed
+n7: 422772722 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 201326648 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 69160840 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 69160840 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 69160680 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 69160680 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 160 in 1 place, below massif's threshold (01.00%)
+ n1: 57120960 0x403631: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 57120960 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 57120960 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 46272800 0x402433: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 46272800 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 36696848 0x402449: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 36696848 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n0: 7053198 in 19 places, all below massif's threshold (01.00%)
+ n1: 5141428 0x403859: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 5141428 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 5141428 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+#-----------
+snapshot=36
+#-----------
+time=7398116658
+mem_heap_B=429111772
+mem_heap_extra_B=70653060
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=7649754874
+mem_heap_B=436724646
+mem_heap_extra_B=72908778
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=7780910631
+mem_heap_B=440622440
+mem_heap_extra_B=74064664
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=8039407773
+mem_heap_B=448421332
+mem_heap_extra_B=76381356
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=8239641709
+mem_heap_B=454188464
+mem_heap_extra_B=78085496
+mem_stacks_B=0
+heap_tree=detailed
+n7: 454188464 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 201326648 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 79445520 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 79445520 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 79445360 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 79445360 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 160 in 1 place, below massif's threshold (01.00%)
+ n1: 65599200 0x403631: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 65599200 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 65599200 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 53557184 0x402433: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 53557184 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 40800138 0x402449: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 40800138 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n0: 7508982 in 19 places, all below massif's threshold (01.00%)
+ n1: 5950792 0x403859: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 5950792 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 5950792 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+#-----------
+snapshot=41
+#-----------
+time=8380854475
+mem_heap_B=458296294
+mem_heap_extra_B=79300466
+mem_stacks_B=0
+heap_tree=detailed
+n7: 458296294 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 201326648 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 80784720 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 80784720 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 80784560 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 80784560 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 160 in 1 place, below massif's threshold (01.00%)
+ n1: 66680160 0x403631: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 66680160 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 66680160 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 54488592 0x402433: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 54488592 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 41387638 0x402449: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 41387638 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n0: 7574272 in 19 places, all below massif's threshold (01.00%)
+ n1: 6054264 0x403859: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 6054264 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 6054264 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+#-----------
+snapshot=42
+#-----------
+time=8597254596
+mem_heap_B=464764660
+mem_heap_extra_B=81223212
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=8740586993
+mem_heap_B=469220412
+mem_heap_extra_B=82549668
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=9011364898
+mem_heap_B=477781974
+mem_heap_extra_B=85085090
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=9290959690
+mem_heap_B=486313664
+mem_heap_extra_B=87623768
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=9434376053
+mem_heap_B=490560970
+mem_heap_extra_B=88881494
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=9590630904
+mem_heap_B=494918898
+mem_heap_extra_B=90188870
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=9754417713
+mem_heap_B=499437916
+mem_heap_extra_B=91537308
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=9994899195
+mem_heap_B=506220596
+mem_heap_extra_B=93561044
+mem_stacks_B=0
+heap_tree=detailed
+n7: 506220596 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 201326648 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 96664400 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 96664400 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 96664240 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 96664240 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 160 in 1 place, below massif's threshold (01.00%)
+ n1: 79395360 0x403631: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 79395360 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 79395360 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 65453920 0x402433: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 65453920 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 47819660 0x402449: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 47819660 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n0: 8287944 in 19 places, all below massif's threshold (01.00%)
+ n1: 7272664 0x403859: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 7272664 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 7272664 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+#-----------
+snapshot=50
+#-----------
+time=10077991102
+mem_heap_B=513757318
+mem_heap_extra_B=94255762
+mem_stacks_B=0
+heap_tree=detailed
+n8: 513757318 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 201326648 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 97426000 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 97426000 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 97425840 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 97425840 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 160 in 1 place, below massif's threshold (01.00%)
+ n1: 79988160 0x403631: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 79988160 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 79988160 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 65967344 0x402433: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 65967344 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 48151560 0x402449: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 48151560 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 7864288 0x4037BF: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 7864288 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 7864288 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 7329676 0x403859: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 7329676 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 7329676 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n0: 5703642 in 18 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=51
+#-----------
+time=10209146956
+mem_heap_B=515261970
+mem_heap_extra_B=95441094
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=10284990217
+mem_heap_B=517925854
+mem_heap_extra_B=96167426
+mem_stacks_B=0
+heap_tree=detailed
+n7: 517925854 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 201326648 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 99653640 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 99653640 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 99653480 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 99653480 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 160 in 1 place, below massif's threshold (01.00%)
+ n1: 81824160 0x403631: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 81824160 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 81824160 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 67638896 0x402433: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 67638896 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 48933342 0x402449: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 48933342 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n0: 11033700 in 19 places, all below massif's threshold (01.00%)
+ n1: 7515468 0x403859: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 7515468 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 7515468 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+#-----------
+snapshot=53
+#-----------
+time=10416146132
+mem_heap_B=522479088
+mem_heap_extra_B=97396832
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=10423823067
+mem_heap_B=522762010
+mem_heap_extra_B=97472318
+mem_stacks_B=0
+heap_tree=detailed
+n7: 522762010 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 201326648 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 101224840 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 101224840 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 101224680 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 101224680 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 160 in 1 place, below massif's threshold (01.00%)
+ n1: 83140800 0x403631: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 83140800 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 83140800 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 68866488 0x402433: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 68866488 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 49459304 0x402449: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 49459304 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n0: 11092058 in 19 places, all below massif's threshold (01.00%)
+ n1: 7651872 0x403859: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 7651872 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 7651872 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+#-----------
+snapshot=55
+#-----------
+time=10554978835
+mem_heap_B=527276672
+mem_heap_extra_B=98695400
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=10565784148
+mem_heap_B=527642868
+mem_heap_extra_B=98793876
+mem_stacks_B=0
+heap_tree=detailed
+n7: 527642868 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 201326648 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 102838440 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 102838440 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 102838280 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 102838280 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 160 in 1 place, below massif's threshold (01.00%)
+ n1: 84482880 0x403631: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 84482880 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 84482880 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 70118972 0x402433: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 70118972 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 49939482 0x402449: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 49939482 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n0: 11145414 in 19 places, all below massif's threshold (01.00%)
+ n1: 7791032 0x403859: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 7791032 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 7791032 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+#-----------
+snapshot=57
+#-----------
+time=10696939976
+mem_heap_B=532050410
+mem_heap_extra_B=99981934
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=10712878963
+mem_heap_B=532577864
+mem_heap_extra_B=100123264
+mem_stacks_B=0
+heap_tree=peak
+n7: 532577864 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 201326648 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 104440760 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 104440760 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 104440600 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 104440600 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 160 in 1 place, below massif's threshold (01.00%)
+ n1: 85824960 0x403631: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 85824960 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 85824960 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 71371060 0x402433: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 71371060 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 50478902 0x402449: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 50478902 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n0: 11205458 in 19 places, all below massif's threshold (01.00%)
+ n1: 7930076 0x403859: std::deque<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_push_back_aux(std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 7930076 0x402499: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 7930076 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)

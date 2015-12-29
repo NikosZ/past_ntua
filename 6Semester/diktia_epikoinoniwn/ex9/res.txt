@@ -1,0 +1,40 @@
+flow 1
+Total packets : 834
+Total data : 1259340
+Total time : 5.071442
+Total packets lost : 10
+Total data lost : 15200
+Total packets sent from node0: 834
+Total data sent from node0: 1259340
+Total packets received to node3: 407
+Total data received from node3: 618640
+flow 2
+Total packets : 1198
+Total data : 1797000
+Total time : 5.100945
+Total packets lost : 11
+Total data lost : 16500
+Total packets sent from node0: 1198
+Total data sent from node0: 1797000
+Total packets received to node4: 588
+Total data received from node4: 882000
+flow 3
+Total packets : 1002
+Total data : 1513020
+Total time : 5.137453
+Total packets lost : 157
+Total data lost : 238640
+Total packets sent from node0: 1002
+Total data sent from node1: 1513020
+Total packets received to node3: 344
+Total data received from node3: 522880
+flow 4
+Total packets : 5120
+Total data : 5120000
+Total time : 24.398207
+Total packets lost : 7
+Total data lost : 7000
+Total packets sent from node0: 5120
+Total data sent from node0: 5120000
+Total packets received to node4: 2542
+Total data received from node4: 2542000

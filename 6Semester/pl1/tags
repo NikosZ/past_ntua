@@ -1,0 +1,3 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+con	/home/zinc/ntua/pl1/powerset.sml	/^	let fun con x [] = [[x]]$/;"	f	language:SML
+powerset	/home/zinc/ntua/pl1/powerset.sml	/^fun powerset [] ls = ls$/;"	f	language:SML

@@ -1,0 +1,10 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+add_list	/home/zinc/ntua/6Semester/pl1/exams_test/epan2013.sml	/^         fun add_list f n = n::f$/;"	f	language:SML
+altSum	/home/zinc/ntua/6Semester/pl1/exams_test/ml2013_1.sml	/^fun altSum ls = (List.foldr (fn (x,y) => (~1)*y +x ) 0 ls);;$/;"	f	language:SML
+inc1	/home/zinc/ntua/6Semester/pl1/exams_test/ml2013_1.sml	/^let fun inc1 [] acc =List.rev acc$/;"	f	language:SML
+inc1Seqs	/home/zinc/ntua/6Semester/pl1/exams_test/epan2013.sml	/^fun inc1Seqs [] = []$/;"	f	language:SML
+inc1Seqs	/home/zinc/ntua/6Semester/pl1/exams_test/ml2013_1.sml	/^fun inc1Seqs ls = $/;"	f	language:SML
+keep_searching	/home/zinc/ntua/6Semester/pl1/exams_test/epan2013.sml	/^         fun keep_searching (l::s) [] = ((l::s),[]) $/;"	f	language:SML
+nl	/home/zinc/ntua/6Semester/pl1/exams_test/epan2013.sml	/^         let val (nl,rest) = keep_searching [l] ls$/;"	v	language:SML
+powerset	/home/zinc/ntua/6Semester/pl1/exams_test/powerset.sml	/^fun powerset [] = [[]]$/;"	f	language:SML
+search	/home/zinc/ntua/6Semester/pl1/exams_test/epan2013.sml	/^         fun search (l::ls) fl =$/;"	f	language:SML

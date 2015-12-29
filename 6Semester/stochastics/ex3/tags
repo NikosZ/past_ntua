@@ -1,0 +1,116 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+animation	/home/zinc/ntua/stochastics/ex3/sim2.py	/^animation = True$/;"	v	language:Python
+animation	/home/zinc/ntua/stochastics/ex3/sim_annealing.py	/^animation = True$/;"	v	language:Python
+cities	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^  cities = read_cities(filename)$/;"	v	language:Python
+cities	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^  cities = read_cities(filename)$/;"	v	language:Python
+cities_best	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^      cities_best = cities[:]$/;"	v	language:Python
+cities_best	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^  cities_best = cities[:]$/;"	v	language:Python
+cities_best	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^      cities_best = cities[:]$/;"	v	language:Python
+cities_best	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^  cities_best = cities[:]$/;"	v	language:Python
+compute_distance_matrix	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^def compute_distance_matrix(cities):$/;"	f	language:Python
+compute_distance_matrix	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^def compute_distance_matrix(cities):$/;"	f	language:Python
+compute_total_distance	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^def compute_total_distance(cities,dist_matrix):$/;"	f	language:Python
+compute_total_distance	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^def compute_total_distance(cities,dist_matrix):$/;"	f	language:Python
+cooling_factor	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^  cooling_factor = 0.95$/;"	v	language:Python
+cooling_factor	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^  cooling_factor = 0.95$/;"	v	language:Python
+delta	/home/zinc/ntua/stochastics/ex3/sim2.py	/^delta = 0.1$/;"	v	language:Python
+delta	/home/zinc/ntua/stochastics/ex3/sim_annealing.py	/^delta = 0.1$/;"	v	language:Python
+delta_E	/home/zinc/ntua/stochastics/ex3/ising.py	/^  delta_E = 2.0 * Spin[k] * sum(Spin[n] for n in neighbors[k])$/;"	v	language:Python
+diff	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^    diff = distance_new - distance_current$/;"	v	language:Python
+diff	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^    diff = distance_new - distance_current$/;"	v	language:Python
+distance_begin	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^  distance_begin = compute_total_distance(cities,dist_matrix)$/;"	v	language:Python
+distance_begin	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^  distance_begin = compute_total_distance(cities,dist_matrix)$/;"	v	language:Python
+distance_current	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^       distance_current = distance_new$/;"	v	language:Python
+distance_current	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^       distance_current = distance_new$/;"	v	language:Python
+distance_end	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^      distance_end = distance_current$/;"	v	language:Python
+distance_end	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^      distance_end = distance_current$/;"	v	language:Python
+distance_new	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^     				      + dist_matrix[cities[min_index]][cities[max_index_next]]$/;"	v	language:Python
+distance_new	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^     				      + dist_matrix[cities[min_index]][cities[max_index_next]]$/;"	v	language:Python
+dist_matrix	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^  dist_matrix = compute_distance_matrix(cities)$/;"	v	language:Python
+dist_matrix	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^  dist_matrix = compute_distance_matrix(cities)$/;"	v	language:Python
+euclidean_distance	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^def euclidean_distance(city_a,city_b):$/;"	f	language:Python
+euclidean_distance	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^def euclidean_distance(city_a,city_b):$/;"	f	language:Python
+f	/home/zinc/ntua/stochastics/ex3/erg.py	/^def f(x):$/;"	f	language:Python
+f	/home/zinc/ntua/stochastics/ex3/ergodic.py	/^def f(x):$/;"	f	language:Python
+filename	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^  filename = "eu.csv"$/;"	v	language:Python
+filename	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^  filename = "europe.csv"$/;"	v	language:Python
+gamma	/home/zinc/ntua/stochastics/ex3/sim2.py	/^gamma = 0.5$/;"	v	language:Python
+gamma	/home/zinc/ntua/stochastics/ex3/sim_annealing.py	/^gamma = 0.5$/;"	v	language:Python
+geodesic_distance	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^def geodesic_distance(city_a, city_b):$/;"	f	language:Python
+geodesic_distance	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^def geodesic_distance(city_a, city_b):$/;"	f	language:Python
+image_p	/home/zinc/ntua/stochastics/ex3/sim2.py	/^    image_p = {1:(-5,6),2:(-4,5),3:(-5,4)}$/;"	v	language:Python
+image_p	/home/zinc/ntua/stochastics/ex3/sim_annealing.py	/^    image_p = {1:(-5,6),2:(-4,5),3:(-5,4)}$/;"	v	language:Python
+index	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^    index = random.sample(range(1,len(cities)),2)$/;"	v	language:Python
+index	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^    index = random.sample(range(1,len(cities)),2)$/;"	v	language:Python
+iterations	/home/zinc/ntua/stochastics/ex3/sim2.py	/^iterations = 1$/;"	v	language:Python
+iterations	/home/zinc/ntua/stochastics/ex3/sim_annealing.py	/^iterations = 1$/;"	v	language:Python
+k	/home/zinc/ntua/stochastics/ex3/ising.py	/^  k = random.randint(0, N - 1)$/;"	v	language:Python
+L	/home/zinc/ntua/stochastics/ex3/ising.py	/^L = 64$/;"	v	language:Python
+minima	/home/zinc/ntua/stochastics/ex3/sim2.py	/^minima = 1$/;"	v	language:Python
+minima	/home/zinc/ntua/stochastics/ex3/sim_annealing.py	/^minima = 3$/;"	v	language:Python
+N	/home/zinc/ntua/stochastics/ex3/erg.py	/^N = 10**6$/;"	v	language:Python
+N	/home/zinc/ntua/stochastics/ex3/ergodic.py	/^N = 100* (10**6)$/;"	v	language:Python
+N	/home/zinc/ntua/stochastics/ex3/ising.py	/^N = L*L$/;"	v	language:Python
+neighbors	/home/zinc/ntua/stochastics/ex3/ising.py	/^neighbors = {i : ((i \/\/ L) * L + (i + 1) % L, 	# RIGHT$/;"	v	language:Python
+nsteps	/home/zinc/ntua/stochastics/ex3/ising.py	/^nsteps = N * 150$/;"	v	language:Python
+n_cities	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^  n_cities = len(cities)$/;"	v	language:Python
+n_cities	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^  n_cities = len(cities)$/;"	v	language:Python
+n_plus	/home/zinc/ntua/stochastics/ex3/sim2.py	/^n_plus = 0$/;"	v	language:Python
+n_plus	/home/zinc/ntua/stochastics/ex3/sim_annealing.py	/^n_plus = 0$/;"	v	language:Python
+random_seed	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^  random_seed = -1$/;"	v	language:Python
+random_seed	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^  random_seed = -1$/;"	v	language:Python
+random_walk_next	/home/zinc/ntua/stochastics/ex3/erg.py	/^def random_walk_next(state):$/;"	f	language:Python
+random_walk_next	/home/zinc/ntua/stochastics/ex3/ergodic.py	/^def random_walk_next(state):$/;"	f	language:Python
+read_cities	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^def read_cities(filename):$/;"	f	language:Python
+read_cities	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^def read_cities(filename):$/;"	f	language:Python
+running_state	/home/zinc/ntua/stochastics/ex3/erg.py	/^running_state = 0$/;"	v	language:Python
+running_state	/home/zinc/ntua/stochastics/ex3/ergodic.py	/^running_state = 0$/;"	v	language:Python
+solution	/home/zinc/ntua/stochastics/ex3/sim2.py	/^solution = {0:(0.6,1.4),2:(3.4,3.8),3:(-4.9,-4.5),1:(0.6,1.4)}$/;"	v	language:Python
+solution	/home/zinc/ntua/stochastics/ex3/sim_annealing.py	/^solution = {1:(0.6,1.4),2:(3.4,3.8),3:(-4.9,-4.5),4:(0,6,1,4)}$/;"	v	language:Python
+Spin	/home/zinc/ntua/stochastics/ex3/ising.py	/^Spin = [random.choice([1,-1]) for k in range(N)]$/;"	v	language:Python
+spin_table	/home/zinc/ntua/stochastics/ex3/ising.py	/^spin_table = [[None for x in range(L)] for y in range(L)]$/;"	v	language:Python
+stage_steps	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^  stage_steps = 100$/;"	v	language:Python
+stage_steps	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^  stage_steps = 100$/;"	v	language:Python
+step	/home/zinc/ntua/stochastics/ex3/sim2.py	/^      step = 0$/;"	v	language:Python
+step	/home/zinc/ntua/stochastics/ex3/sim2.py	/^  step = 0$/;"	v	language:Python
+step	/home/zinc/ntua/stochastics/ex3/sim_annealing.py	/^      step = 0$/;"	v	language:Python
+step	/home/zinc/ntua/stochastics/ex3/sim_annealing.py	/^  step = 0$/;"	v	language:Python
+steps	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^  steps = 0$/;"	v	language:Python
+steps	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^  steps = 0$/;"	v	language:Python
+sum_result	/home/zinc/ntua/stochastics/ex3/erg.py	/^sum_result = 0$/;"	v	language:Python
+sum_result	/home/zinc/ntua/stochastics/ex3/ergodic.py	/^sum_result = 0$/;"	v	language:Python
+T	/home/zinc/ntua/stochastics/ex3/sim2.py	/^  T = 128.0$/;"	v	language:Python
+T	/home/zinc/ntua/stochastics/ex3/sim_annealing.py	/^  T = 128.0$/;"	v	language:Python
+Temperature	/home/zinc/ntua/stochastics/ex3/ising.py	/^Temperature = 0.03$/;"	v	language:Python
+temperature	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^      temperature = temperature * cooling_factor$/;"	v	language:Python
+temperature	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^  temperature = temperature_begin$/;"	v	language:Python
+temperature	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^      temperature = temperature * cooling_factor$/;"	v	language:Python
+temperature	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^  temperature = temperature_begin$/;"	v	language:Python
+temperature_begin	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^  temperature_begin = 10**7 $/;"	v	language:Python
+temperature_begin	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^  temperature_begin = 10**7 $/;"	v	language:Python
+temperature_end	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^  temperature_end = 0.02$/;"	v	language:Python
+temperature_end	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^  temperature_end = 0.02$/;"	v	language:Python
+text_p	/home/zinc/ntua/stochastics/ex3/sim2.py	/^    text_p = {1:(0,5),2:(-3.5,-5),3:(-3.5,8)}$/;"	v	language:Python
+text_p	/home/zinc/ntua/stochastics/ex3/sim_annealing.py	/^    text_p = {1:(0,5),2:(-3.5,-5),3:(-3.5,8)}$/;"	v	language:Python
+text_temp	/home/zinc/ntua/stochastics/ex3/sim2.py	/^    text_temp = plt.text(text_p[minima][0],text_p[minima][1],"Temperature=%0.3f"%(T))$/;"	v	language:Python
+text_temp	/home/zinc/ntua/stochastics/ex3/sim_annealing.py	/^    text_temp = plt.text(text_p[minima][0],text_p[minima][1],"Temperature=%0.3f"%(T))$/;"	v	language:Python
+text_x	/home/zinc/ntua/stochastics/ex3/sim2.py	/^    text_x = plt.text(text_p[minima][0],text_p[minima][1]-2,"x=%0.3f"%(x))$/;"	v	language:Python
+text_x	/home/zinc/ntua/stochastics/ex3/sim_annealing.py	/^    text_x = plt.text(text_p[minima][0],text_p[minima][1]-2,"x=%0.3f"%(x))$/;"	v	language:Python
+V	/home/zinc/ntua/stochastics/ex3/sim2.py	/^def V(x_value):$/;"	f	language:Python
+V	/home/zinc/ntua/stochastics/ex3/sim_annealing.py	/^def V(x_value):$/;"	f	language:Python
+x	/home/zinc/ntua/stochastics/ex3/erg.py	/^x = list()$/;"	v	language:Python
+x	/home/zinc/ntua/stochastics/ex3/ergodic.py	/^x = list()$/;"	v	language:Python
+x	/home/zinc/ntua/stochastics/ex3/ising.py	/^  x=  k % L$/;"	v	language:Python
+x	/home/zinc/ntua/stochastics/ex3/sim2.py	/^      x = x_new$/;"	v	language:Python
+x	/home/zinc/ntua/stochastics/ex3/sim2.py	/^  x = random.uniform(-3.5,3.5)$/;"	v	language:Python
+x	/home/zinc/ntua/stochastics/ex3/sim_annealing.py	/^      x = x_new$/;"	v	language:Python
+x	/home/zinc/ntua/stochastics/ex3/sim_annealing.py	/^  x = random.uniform(-3.5,3.5)$/;"	v	language:Python
+x_array	/home/zinc/ntua/stochastics/ex3/sim2.py	/^    x_array = list(numpy.linspace(image_p[minima][0],image_p[minima][1],1000))$/;"	v	language:Python
+x_array	/home/zinc/ntua/stochastics/ex3/sim_annealing.py	/^    x_array = list(numpy.linspace(image_p[minima][0],image_p[minima][1],1000))$/;"	v	language:Python
+x_new	/home/zinc/ntua/stochastics/ex3/sim2.py	/^    x_new = x + random.uniform(-delta, delta)$/;"	v	language:Python
+x_new	/home/zinc/ntua/stochastics/ex3/sim_annealing.py	/^    x_new = x + random.uniform(-delta, delta)$/;"	v	language:Python
+y	/home/zinc/ntua/stochastics/ex3/ising.py	/^  y = k \/\/ L$/;"	v	language:Python
+y_array	/home/zinc/ntua/stochastics/ex3/sim2.py	/^    y_array = map(V,x_array)$/;"	v	language:Python
+y_array	/home/zinc/ntua/stochastics/ex3/sim_annealing.py	/^    y_array = map(V,x_array)$/;"	v	language:Python
+__docformat__	/home/zinc/ntua/stochastics/ex3/simulatedannealingtsp.py	/^__docformat__ = "restructuredtext en" $/;"	v	language:Python
+__docformat__	/home/zinc/ntua/stochastics/ex3/sim_eu.py	/^__docformat__ = "restructuredtext en" $/;"	v	language:Python

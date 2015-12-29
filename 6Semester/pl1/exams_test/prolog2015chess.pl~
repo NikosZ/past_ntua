@@ -1,0 +1,9 @@
+%
+jump(N,X/Y,Z/T):- Z is X+2,T is Y +1 ,Z<N,T<N.
+jump(N,X/Y,Z/T):- Z>0,T>0,Z<N ,T<N,Z is X+2,T is Y -1 .
+jump(N,X/Y,Z/T):-Z>0, Z<N ,T<N,Z is X-2,T is Y +1 .
+jump(N,X/Y,Z/T):-Z>0,T>0, Z<N ,T<N,Z is X-2,T is Y -1 .
+jump(N,X/Y,T/Z):- Z<N ,T<N,Z is X+2,T is Y +1 .
+jump(N,X/Y,T/Z):- Z>0,T>0,Z<N ,T<N,Z is X+2,T is Y -1 .
+jump(N,X/Y,T/Z):-Z>0, Z<N ,T<N,Z is X-2,T is Y +1 .
+jump(N,X/Y,T/Z):-Z>0,T>0, Z<N ,T<N,Z is X-2,T is Y -1 .

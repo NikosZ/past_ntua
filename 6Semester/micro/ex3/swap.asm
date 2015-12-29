@@ -1,0 +1,38 @@
+SWAP MACRO Q,R
+MOV A,B
+MOV C,B
+MOV B,A ;simple swap using A as temporary reg
+ENDM
+
+FILL MACRO ADDR,L,K
+LXI H,ADDR
+MVI A,L
+CPI 00H ; if L is zero
+JZ ENDA
+LOOP1:
+MVI M,K ; store byte
+INR M ; next adress
+DCR A 
+JZ ENDA ;did we ended fill?
+JMP LOOP1
+
+ENDA:
+ENDM
+
+RHLL MACRO n
+MVI A,n
+CPI 00H
+JZ ENDR
+MVI B,n
+
+LOOP2:
+MOV A,L
+RAL
+MOV L,A
+MOV A,H
+RAL
+DCR B
+JZ ENDR
+JMP LOOP2
+ENDR:
+ENDM

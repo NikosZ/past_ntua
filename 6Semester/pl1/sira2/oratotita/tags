@@ -1,0 +1,20 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+Building	/home/zinc/ntua/pl1/sira2/oratotita/Building.java	/^	Building(int xa,int xb,int ya,int yb,double h){$/;"	m	language:Java	class:Building
+Building	/home/zinc/ntua/pl1/sira2/oratotita/Building.java	/^public class Building{$/;"	c	language:Java
+endx	/home/zinc/ntua/pl1/sira2/oratotita/Building.java	/^	private final int endx;$/;"	f	language:Java	class:Building	file:
+endy	/home/zinc/ntua/pl1/sira2/oratotita/Building.java	/^	private final int endy;$/;"	f	language:Java	class:Building	file:
+getH	/home/zinc/ntua/pl1/sira2/oratotita/Building.java	/^	public double getH(){return height;}$/;"	m	language:Java	class:Building
+getKey	/home/zinc/ntua/pl1/sira2/oratotita/Building.java	/^	public double getKey(){return  medial;}$/;"	m	language:Java	class:Building
+getXe	/home/zinc/ntua/pl1/sira2/oratotita/Building.java	/^	public int getXe(){return endx;}$/;"	m	language:Java	class:Building
+getXs	/home/zinc/ntua/pl1/sira2/oratotita/Building.java	/^	public int getXs(){return startx;}$/;"	m	language:Java	class:Building
+getYe	/home/zinc/ntua/pl1/sira2/oratotita/Building.java	/^	public int getYe(){return endy;}$/;"	m	language:Java	class:Building
+getYs	/home/zinc/ntua/pl1/sira2/oratotita/Building.java	/^	public int getYs(){return starty;}$/;"	m	language:Java	class:Building
+height	/home/zinc/ntua/pl1/sira2/oratotita/Building.java	/^	private final double height;$/;"	f	language:Java	class:Building	file:
+left	/home/zinc/ntua/pl1/sira2/oratotita/Tree.java	/^	private Tree left;$/;"	f	language:Java	class:Tree	file:
+medial	/home/zinc/ntua/pl1/sira2/oratotita/Building.java	/^	private final double medial;$/;"	f	language:Java	class:Building	file:
+right	/home/zinc/ntua/pl1/sira2/oratotita/Tree.java	/^	private Tree right;$/;"	f	language:Java	class:Tree	file:
+Smleft	/home/zinc/ntua/pl1/sira2/oratotita/Tree.java	/^	private Collection<Building> Smleft ;$/;"	f	language:Java	class:Tree	file:
+Smright	/home/zinc/ntua/pl1/sira2/oratotita/Tree.java	/^	private Collection<Building> Smright ;$/;"	f	language:Java	class:Tree	file:
+startx	/home/zinc/ntua/pl1/sira2/oratotita/Building.java	/^	private final int startx;$/;"	f	language:Java	class:Building	file:
+starty	/home/zinc/ntua/pl1/sira2/oratotita/Building.java	/^	private final int starty;$/;"	f	language:Java	class:Building	file:
+Tree	/home/zinc/ntua/pl1/sira2/oratotita/Tree.java	/^public class Tree{$/;"	c	language:Java

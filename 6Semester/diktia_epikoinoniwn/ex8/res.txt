@@ -1,0 +1,135 @@
+
+Total data received	: 306000 Bytes
+Total packets received	: 300
+CBR start		: 0.250000000
+CBR end 		: 6.232054645
+Mean CBR packet delay	: 0.002050 sec
+Routing start		: 0.250000000
+Routing end		: 0.255313085
+Routing delay		: 0.005313 sec
+
+Total data received	: 306000 Bytes
+Total packets received	: 300
+CBR start		: 0.250000000
+CBR end 		: 6.232054745
+Mean CBR packet delay	: 0.002050 sec
+Routing start		: 0.250000000
+Routing end		: 0.255313352
+Routing delay		: 0.005313 sec
+40
+Total data received	: 306000 Bytes
+Total packets received	: 300
+CBR start		: 0.250000000
+CBR end 		: 6.232054945
+Mean CBR packet delay	: 0.002050 sec
+Routing start		: 0.250000000
+Routing end		: 0.255313885
+Routing delay		: 0.005314 sec
+50
+Total data received	: 306000 Bytes
+Total packets received	: 300
+CBR start		: 0.250000000
+CBR end 		: 6.232055045
+Mean CBR packet delay	: 0.002050 sec
+Routing start		: 0.250000000
+Routing end		: 0.255314152
+Routing delay		: 0.005314 sec
+70
+Total data received	: 306000 Bytes
+Total packets received	: 300
+CBR start		: 0.250000000
+CBR end 		: 6.232055245
+Mean CBR packet delay	: 0.002051 sec
+Routing start		: 0.250000000
+Routing end		: 0.255314685
+Routing delay		: 0.005315 sec
+100
+Total data received	: 306000 Bytes
+Total packets received	: 300
+CBR start		: 0.250000000
+CBR end 		: 6.232055545
+Mean CBR packet delay	: 0.002051 sec
+Routing start		: 0.250000000
+Routing end		: 0.255315485
+Routing delay		: 0.005315 sec
+120
+Total data received	: 306000 Bytes
+Total packets received	: 300
+CBR start		: 0.250000000
+CBR end 		: 6.232055745
+Mean CBR packet delay	: 0.002051 sec
+Routing start		: 0.250000000
+Routing end		: 0.255316018
+Routing delay		: 0.005316 sec
+150
+Total data received	: 306000 Bytes
+Total packets received	: 300
+CBR start		: 0.250000000
+CBR end 		: 6.232056045
+Mean CBR packet delay	: 0.002051 sec
+Routing start		: 0.250000000
+Routing end		: 0.255316818
+Routing delay		: 0.005317 sec
+170
+Total data received	: 306000 Bytes
+Total packets received	: 300
+CBR start		: 0.250000000
+CBR end 		: 6.232056245
+Mean CBR packet delay	: 0.002052 sec
+Routing start		: 0.250000000
+Routing end		: 0.255317352
+Routing delay		: 0.005317 sec
+200
+Total data received	: 306000 Bytes
+Total packets received	: 300
+CBR start		: 0.250000000
+CBR end 		: 6.232056545
+Mean CBR packet delay	: 0.002052 sec
+Routing start		: 0.250000000
+Routing end		: 0.255318152
+Routing delay		: 0.005318 sec
+220
+Total data received	: 306000 Bytes
+Total packets received	: 300
+CBR start		: 0.250000000
+CBR end 		: 6.232056745
+Mean CBR packet delay	: 0.002052 sec
+Routing start		: 0.250000000
+Routing end		: 0.255318685
+Routing delay		: 0.005319 sec
+240
+Total data received	: 306000 Bytes
+Total packets received	: 300
+CBR start		: 0.250000000
+CBR end 		: 6.232056945
+Mean CBR packet delay	: 0.002052 sec
+Routing start		: 0.250000000
+Routing end		: 0.255319218
+Routing delay		: 0.005319 sec
+240
+Total data received	: 306000 Bytes
+Total packets received	: 300
+CBR start		: 0.250000000
+CBR end 		: 6.232057045
+Mean CBR packet delay	: 0.002052 sec
+Routing start		: 0.250000000
+Routing end		: 0.255319485
+Routing delay		: 0.005319 sec
+251
+Total data received	: 0 Bytes
+Total packets received	: 0
+CBR start		: 0.250000000
+CBR end 		: 
+Mean CBR packet delay	: -nan sec
+Routing start		: 0.250000000
+Routing end		: 
+Routing delay		: -0.250000 sec
+2
+2
+4
+8
+12
+16
+20
+26
+32

@@ -1,0 +1,6 @@
+for N= 64 sample mean: 10.379687 and sample variance:0.472894
+for N= 128 sample mean: 10.374740 and sample variance:0.181685
+for N= 256 sample mean: 10.445052 and sample variance:0.179652
+for N= 512 sample mean: 10.347591 and sample variance:0.054213
+for N= 1024 sample mean: 10.481283 and sample variance:0.035768
+for N= 2048 sample mean: 10.482715 and sample variance:0.013879

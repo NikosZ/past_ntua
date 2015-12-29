@@ -1,0 +1,6 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+digitalize	/home/zinc/ntua/pl1/Sira3/lucky.ml	/^let rec digitalize n acc = match n with$/;"	v	language:OCaml
+Lucky	/home/zinc/ntua/pl1/Sira3/lucky.ml	1;"	M	language:OCaml
+M	/home/zinc/ntua/pl1/Sira3/lucky.ml	/^type mem = Nil | M of int* float list*mem;;$/;"	C	language:OCaml	type:mem
+mem	/home/zinc/ntua/pl1/Sira3/lucky.ml	/^type mem = Nil | M of int* float list*mem;;$/;"	t	language:OCaml
+Nil	/home/zinc/ntua/pl1/Sira3/lucky.ml	/^type mem = Nil | M of int* float list*mem;;$/;"	C	language:OCaml	type:mem

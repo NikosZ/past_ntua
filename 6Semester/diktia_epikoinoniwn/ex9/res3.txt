@@ -1,0 +1,40 @@
+-------------------------Results for flow 1---------------------------
+Total transfer time  			: 4.0635 sec
+Total packets sent 			: 334 packets
+Total data sent  			: 501000 Bytes
+Total packets lost 			: 6 packets
+Total data lost 			: 2440 Bytes
+Total packets received at node 1	: 328 packets
+Total data received at node 1		: 498560 Bytes
+----------------------------------------------------------------------
+
+-------------------------Results for flow 2---------------------------
+Total transfer time  			: 4.0765 sec
+Total packets sent 			: 499 packets
+Total data sent  			: 747040 Bytes
+Total packets lost 			: 9 packets
+Total data lost 			: 13500 Bytes
+Total packets received at node 2	: 490 packets
+Total data received at node 2		: 733540 Bytes
+----------------------------------------------------------------------
+
+-------------------------Results for flow 3---------------------------
+Total transfer time  			: 4.1261 sec
+Total packets sent 			: 401 packets
+Total data sent  			: 601500 Bytes
+Total packets lost 			: 135 packets
+Total data lost 			: 197180 Bytes
+Total packets received at node 3	: 266 packets
+Total data received at node 3		: 404320 Bytes
+----------------------------------------------------------------------
+
+-------------------------Results for flow 4---------------------------
+Total transfer time  			: 24.3995 sec
+Total packets sent 			: 2570 packets
+Total data sent  			: 2569040 Bytes
+Total packets lost 			: 16 packets
+Total data lost 			: 16000 Bytes
+Total packets received at node 4	: 2554 packets
+Total data received at node 4		: 2553040 Bytes
+----------------------------------------------------------------------
+

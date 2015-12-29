@@ -1,0 +1,72 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+CPI	/home/zinc/ntua/micro/ex3/swap.asm	/^CPI 00H ; if L is zero$/;"	l	language:Asm
+CPI	/home/zinc/ntua/micro/ex3/swap.asm	/^CPI 00H$/;"	l	language:Asm
+DCR	/home/zinc/ntua/micro/ex3/swap.asm	/^DCR A $/;"	l	language:Asm
+DCR	/home/zinc/ntua/micro/ex3/swap.asm	/^DCR B$/;"	l	language:Asm
+EI	/home/zinc/ntua/micro/ex3/ex5B.asm	/^EI ; next data$/;"	l	language:Asm
+ENDA	/home/zinc/ntua/micro/ex3/ex5A.asm	/^ENDA:$/;"	l	language:Asm
+ENDA	/home/zinc/ntua/micro/ex3/ex5B.asm	/^ENDA:$/;"	l	language:Asm
+ENDA	/home/zinc/ntua/micro/ex3/swap.asm	/^ENDA:$/;"	l	language:Asm
+ENDR	/home/zinc/ntua/micro/ex3/swap.asm	/^ENDR:$/;"	l	language:Asm
+FILL	/home/zinc/ntua/micro/ex3/swap.asm	/^FILL MACRO ADDR,L,K$/;"	m	language:Asm
+ICR	/home/zinc/ntua/micro/ex3/ex5A.asm	/^ICR B$/;"	l	language:Asm
+ICR	/home/zinc/ntua/micro/ex3/ex5B.asm	/^ICR B$/;"	l	language:Asm
+IN	/home/zinc/ntua/micro/ex3/ex5B.asm	/^IN DATA ; get data$/;"	l	language:Asm
+INR	/home/zinc/ntua/micro/ex3/swap.asm	/^INR M ; next adress$/;"	l	language:Asm
+INX	/home/zinc/ntua/micro/ex3/ex5A.asm	/^INX H$/;"	l	language:Asm
+INX	/home/zinc/ntua/micro/ex3/ex5B.asm	/^INX H ; next cell$/;"	l	language:Asm
+JC	/home/zinc/ntua/micro/ex3/ex5A.asm	/^JC ENDA ; if B=256 ->C=1 B=0$/;"	l	language:Asm
+JC	/home/zinc/ntua/micro/ex3/ex5B.asm	/^JC ENDA$/;"	l	language:Asm
+JMP	/home/zinc/ntua/micro/ex3/ex5A.asm	/^JMP WAIT ; wait to complete the transfer$/;"	l	language:Asm
+JMP	/home/zinc/ntua/micro/ex3/ex5B.asm	/^JMP READY$/;"	l	language:Asm
+JMP	/home/zinc/ntua/micro/ex3/ex5B.asm	/^JMP YES$/;"	l	language:Asm
+JMP	/home/zinc/ntua/micro/ex3/swap.asm	/^JMP LOOP1$/;"	l	language:Asm
+JMP	/home/zinc/ntua/micro/ex3/swap.asm	/^JMP LOOP2$/;"	l	language:Asm
+JNC	/home/zinc/ntua/micro/ex3/ex5A.asm	/^JNC READY ;byte was sent ,go for the next$/;"	l	language:Asm
+JNC	/home/zinc/ntua/micro/ex3/ex5A.asm	/^JNC READY$/;"	l	language:Asm
+JNC	/home/zinc/ntua/micro/ex3/ex5B.asm	/^JNC READY$/;"	l	language:Asm
+JZ	/home/zinc/ntua/micro/ex3/ex5B.asm	/^JZ REC ; receive data$/;"	l	language:Asm
+JZ	/home/zinc/ntua/micro/ex3/swap.asm	/^JZ ENDA ;did we ended fill?$/;"	l	language:Asm
+JZ	/home/zinc/ntua/micro/ex3/swap.asm	/^JZ ENDA$/;"	l	language:Asm
+JZ	/home/zinc/ntua/micro/ex3/swap.asm	/^JZ ENDR$/;"	l	language:Asm
+JZ	/home/zinc/ntua/micro/ex3/swap.asm	/^JZ ENDR$/;"	l	language:Asm
+LDAX	/home/zinc/ntua/micro/ex3/ex5A.asm	/^LDAX H$/;"	l	language:Asm
+LOOP1	/home/zinc/ntua/micro/ex3/swap.asm	/^LOOP1:$/;"	l	language:Asm
+LOOP2	/home/zinc/ntua/micro/ex3/swap.asm	/^LOOP2:$/;"	l	language:Asm
+LXI	/home/zinc/ntua/micro/ex3/swap.asm	/^LXI H,ADDR$/;"	l	language:Asm
+MOV	/home/zinc/ntua/micro/ex3/swap.asm	/^MOV A,B$/;"	l	language:Asm
+MOV	/home/zinc/ntua/micro/ex3/swap.asm	/^MOV A,H$/;"	l	language:Asm
+MOV	/home/zinc/ntua/micro/ex3/swap.asm	/^MOV A,L$/;"	l	language:Asm
+MOV	/home/zinc/ntua/micro/ex3/swap.asm	/^MOV B,A ;simple swap using A as temporary reg$/;"	l	language:Asm
+MOV	/home/zinc/ntua/micro/ex3/swap.asm	/^MOV C,B$/;"	l	language:Asm
+MOV	/home/zinc/ntua/micro/ex3/swap.asm	/^MOV L,A$/;"	l	language:Asm
+MVI	/home/zinc/ntua/micro/ex3/ex5A.asm	/^MVI A,FFH; ; we want to sent 1 so A= 11XXXXXX$/;"	l	language:Asm
+MVI	/home/zinc/ntua/micro/ex3/ex5A.asm	/^MVI B,00H ;counter for bytes$/;"	l	language:Asm
+MVI	/home/zinc/ntua/micro/ex3/ex5B.asm	/^MVI A,FFH ; sent 1 $/;"	l	language:Asm
+MVI	/home/zinc/ntua/micro/ex3/ex5B.asm	/^MVI B,00H$/;"	l	language:Asm
+MVI	/home/zinc/ntua/micro/ex3/swap.asm	/^MVI A,L$/;"	l	language:Asm
+MVI	/home/zinc/ntua/micro/ex3/swap.asm	/^MVI A,n$/;"	l	language:Asm
+MVI	/home/zinc/ntua/micro/ex3/swap.asm	/^MVI B,n$/;"	l	language:Asm
+MVI	/home/zinc/ntua/micro/ex3/swap.asm	/^MVI M,K ; store byte$/;"	l	language:Asm
+OUT	/home/zinc/ntua/micro/ex3/ex5A.asm	/^OUT DATA$/;"	l	language:Asm
+RAL	/home/zinc/ntua/micro/ex3/swap.asm	/^RAL$/;"	l	language:Asm
+RAL	/home/zinc/ntua/micro/ex3/swap.asm	/^RAL$/;"	l	language:Asm
+READY	/home/zinc/ntua/micro/ex3/ex5A.asm	/^READY:$/;"	l	language:Asm
+READY	/home/zinc/ntua/micro/ex3/ex5B.asm	/^READY:$/;"	l	language:Asm
+REC	/home/zinc/ntua/micro/ex3/ex5B.asm	/^REC:$/;"	l	language:Asm
+RHLL	/home/zinc/ntua/micro/ex3/swap.asm	/^RHLL MACRO n$/;"	m	language:Asm
+RIM	/home/zinc/ntua/micro/ex3/ex5A.asm	/^RIM  ;receive bit$/;"	l	language:Asm
+RIM	/home/zinc/ntua/micro/ex3/ex5A.asm	/^RIM ; wait for 0 bit$/;"	l	language:Asm
+RIM	/home/zinc/ntua/micro/ex3/ex5B.asm	/^RIM  ;receive bit$/;"	l	language:Asm
+RIM	/home/zinc/ntua/micro/ex3/ex5B.asm	/^RIM$/;"	l	language:Asm
+RLC	/home/zinc/ntua/micro/ex3/ex5A.asm	/^RLC $/;"	l	language:Asm
+RLC	/home/zinc/ntua/micro/ex3/ex5A.asm	/^RLC ; check if is 1$/;"	l	language:Asm
+RLC	/home/zinc/ntua/micro/ex3/ex5B.asm	/^RLC $/;"	l	language:Asm
+RLC	/home/zinc/ntua/micro/ex3/ex5B.asm	/^RLC ; check if is 1$/;"	l	language:Asm
+SIM	/home/zinc/ntua/micro/ex3/ex5A.asm	/^SIM ; sent bit$/;"	l	language:Asm
+SIM	/home/zinc/ntua/micro/ex3/ex5B.asm	/^SIM$/;"	l	language:Asm
+STAX	/home/zinc/ntua/micro/ex3/ex5B.asm	/^STAX H ; save data to memory$/;"	l	language:Asm
+SWAP	/home/zinc/ntua/micro/ex3/swap.asm	/^SWAP MACRO Q,R$/;"	m	language:Asm
+WAIT	/home/zinc/ntua/micro/ex3/ex5A.asm	/^WAIT:$/;"	l	language:Asm
+YES	/home/zinc/ntua/micro/ex3/ex5A.asm	/^YES:$/;"	l	language:Asm
+YES	/home/zinc/ntua/micro/ex3/ex5B.asm	/^YES:$/;"	l	language:Asm

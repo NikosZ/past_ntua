@@ -1,0 +1,22 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+all	/home/zinc/ntua/pl1/Sira3/lucky/C/lucky.cpp	10;"	d	language:C++	file:
+calc	/home/zinc/ntua/pl1/Sira3/lucky/C/lucky.cpp	/^void calc(long double a ,long double b,dset* k)$/;"	f	language:C++
+calc1	/home/zinc/ntua/pl1/Sira3/lucky/C/lucky.cpp	/^void calc1(long double a ,long double b)$/;"	f	language:C++
+check	/home/zinc/ntua/pl1/Sira3/lucky/C/lucky.cpp	13;"	d	language:C++	file:
+digitalize	/home/zinc/ntua/pl1/Sira3/lucky/C/lucky.cpp	/^vector<long double> digitalize (long n)$/;"	f	language:C++
+digits	/home/zinc/ntua/pl1/Sira3/lucky/C/lucky.cpp	/^vector<long double> digits;$/;"	v	language:C++
+dset	/home/zinc/ntua/pl1/Sira3/lucky/C/lucky.cpp	/^typedef set<long double> dset,*dset2;$/;"	t	language:C++	file:
+dset2	/home/zinc/ntua/pl1/Sira3/lucky/C/lucky.cpp	/^typedef set<long double> dset,*dset2;$/;"	t	language:C++	file:
+forall	/home/zinc/ntua/pl1/Sira3/lucky/C/lucky.cpp	11;"	d	language:C++	file:
+hash	/home/zinc/ntua/pl1/Sira3/lucky/C/lucky.cpp	/^int hash(int i ,int j)$/;"	f	language:C++
+it	/home/zinc/ntua/pl1/Sira3/lucky/C/lucky.cpp	/^typedef set<long double>::iterator it;$/;"	t	language:C++	file:
+main	/home/zinc/ntua/pl1/Sira3/lucky/C/lucky.cpp	/^int main(int argc,char *argv[])$/;"	f	language:C++
+mem	/home/zinc/ntua/pl1/Sira3/lucky/C/lucky.cpp	/^typedef map<int, dset2> mem;$/;"	t	language:C++	file:
+non_det	/home/zinc/ntua/pl1/Sira3/lucky/C/lucky.cpp	/^void non_det(dset *set1,dset *set2,dset* newset)$/;"	f	language:C++
+non_det2	/home/zinc/ntua/pl1/Sira3/lucky/C/lucky.cpp	/^void non_det2(dset *set1,dset *set2)$/;"	f	language:C++
+number12	/home/zinc/ntua/pl1/Sira3/lucky/C/lucky.cpp	/^long double number12 (int a,int b)$/;"	f	language:C++
+pb	/home/zinc/ntua/pl1/Sira3/lucky/C/lucky.cpp	9;"	d	language:C++	file:
+printset	/home/zinc/ntua/pl1/Sira3/lucky/C/lucky.cpp	/^void printset(dset * b)$/;"	f	language:C++
+printset	/home/zinc/ntua/pl1/Sira3/lucky/C/lucky.cpp	/^void printset(dset *);$/;"	p	language:C++	file:
+solve	/home/zinc/ntua/pl1/Sira3/lucky/C/lucky.cpp	/^dset* solve(mem memo,int i, int j)$/;"	f	language:C++
+solve1	/home/zinc/ntua/pl1/Sira3/lucky/C/lucky.cpp	/^bool solve1(mem memo,int i, int j)$/;"	f	language:C++

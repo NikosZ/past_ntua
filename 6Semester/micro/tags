@@ -1,0 +1,141 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+add	/home/zinc/ntua/micro/ex6/2.asm	/^add temp2,x0 ; output ready$/;"	l	language:Asm
+add	/home/zinc/ntua/micro/ex6/2.asm	/^add temp2,x1 ; add the numbers$/;"	l	language:Asm
+add	/home/zinc/ntua/micro/ex6/2.asm	/^add temp2,x1$/;"	l	language:Asm
+add	/home/zinc/ntua/micro/ex6/2.asm	/^add temp2,x2$/;"	l	language:Asm
+and	/home/zinc/ntua/micro/ex6/2.asm	/^and temp2,temp$/;"	l	language:Asm
+and	/home/zinc/ntua/micro/ex6/2.asm	/^and temp2,temp$/;"	l	language:Asm
+and	/home/zinc/ntua/micro/ex6/2.asm	/^and temp2,temp$/;"	l	language:Asm
+and	/home/zinc/ntua/micro/ex6/2.asm	/^and temp2,temp$/;"	l	language:Asm
+BREQ	/home/zinc/ntua/micro/ex6/1.asm	/^BREQ loop1 ; until is zero$/;"	l	language:Asm
+BREQ	/home/zinc/ntua/micro/ex6/1.asm	/^BREQ loop1 ; until is zero$/;"	l	language:Asm
+BREQ	/home/zinc/ntua/micro/ex6/1.asm	/^BREQ loop2$/;"	l	language:Asm
+BREQ	/home/zinc/ntua/micro/ex6/1.asm	/^BREQ loop2$/;"	l	language:Asm
+breq	/home/zinc/ntua/micro/ex6/2.asm	/^breq Set_x0$/;"	l	language:Asm
+breq	/home/zinc/ntua/micro/ex6/2.asm	/^breq Set_x0$/;"	l	language:Asm
+breq	/home/zinc/ntua/micro/ex6/2.asm	/^breq Set_x1$/;"	l	language:Asm
+breq	/home/zinc/ntua/micro/ex6/2.asm	/^breq Set_x1$/;"	l	language:Asm
+breq	/home/zinc/ntua/micro/ex6/3.asm	/^breq F1$/;"	l	language:Asm
+breq	/home/zinc/ntua/micro/ex6/3.asm	/^breq F2$/;"	l	language:Asm
+breq	/home/zinc/ntua/micro/ex6/3.asm	/^breq F3$/;"	l	language:Asm
+breq	/home/zinc/ntua/micro/ex6/3.asm	/^breq F4$/;"	l	language:Asm
+breq	/home/zinc/ntua/micro/ex6/3.asm	/^breq F5$/;"	l	language:Asm
+breq	/home/zinc/ntua/micro/ex6/3.asm	/^breq temp2,Start ;reset$/;"	l	language:Asm
+breq	/home/zinc/ntua/micro/ex6/3.asm	/^breq temp2,Start$/;"	l	language:Asm
+breq	/home/zinc/ntua/micro/ex6/3.asm	/^breq temp2,Start$/;"	l	language:Asm
+breq	/home/zinc/ntua/micro/ex6/3.asm	/^breq temp2,Start$/;"	l	language:Asm
+breq	/home/zinc/ntua/micro/ex6/3.asm	/^breq temp2,Start$/;"	l	language:Asm
+checkleds	/home/zinc/ntua/micro/ex6/1.asm	/^checkleds:$/;"	l	language:Asm
+clr	/home/zinc/ntua/micro/ex6/1.asm	/^clr temp ;close leds$/;"	l	language:Asm
+clr	/home/zinc/ntua/micro/ex6/1.asm	/^clr temp ;close leds,not needed, case of hardware failure$/;"	l	language:Asm
+clr	/home/zinc/ntua/micro/ex6/1.asm	/^clr temp$/;"	l	language:Asm
+clr	/home/zinc/ntua/micro/ex6/1.asm	/^clr temp$/;"	l	language:Asm
+clr	/home/zinc/ntua/micro/ex6/2.asm	/^clr temp$/;"	l	language:Asm
+clr	/home/zinc/ntua/micro/ex6/2.asm	/^clr temp2$/;"	l	language:Asm
+clr	/home/zinc/ntua/micro/ex6/3.asm	/^clr temp$/;"	l	language:Asm
+clr	/home/zinc/ntua/micro/ex6/3.asm	/^clr temp$/;"	l	language:Asm
+clr	/home/zinc/ntua/micro/ex6/3.asm	/^clr zero$/;"	l	language:Asm
+cpi	/home/zinc/ntua/micro/ex6/2.asm	/^cpi temp2,12 $/;"	l	language:Asm
+cpi	/home/zinc/ntua/micro/ex6/2.asm	/^cpi temp2,128$/;"	l	language:Asm
+cpi	/home/zinc/ntua/micro/ex6/2.asm	/^cpi temp2,16 $/;"	l	language:Asm
+cpi	/home/zinc/ntua/micro/ex6/2.asm	/^cpi temp2,44 $/;"	l	language:Asm
+cpi	/home/zinc/ntua/micro/ex6/3.asm	/^cpi temp2,10$/;"	l	language:Asm
+cpi	/home/zinc/ntua/micro/ex6/3.asm	/^cpi temp2,11$/;"	l	language:Asm
+cpi	/home/zinc/ntua/micro/ex6/3.asm	/^cpi temp2,12$/;"	l	language:Asm
+cpi	/home/zinc/ntua/micro/ex6/3.asm	/^cpi temp2,14$/;"	l	language:Asm
+cpi	/home/zinc/ntua/micro/ex6/3.asm	/^cpi temp2,15$/;"	l	language:Asm
+cpi	/home/zinc/ntua/micro/ex6/3.asm	/^cpi temp2,3 ; first action$/;"	l	language:Asm
+cpi	/home/zinc/ntua/micro/ex6/3.asm	/^cpi temp2,5 ;second action etc$/;"	l	language:Asm
+cpi	/home/zinc/ntua/micro/ex6/3.asm	/^cpi temp2,6$/;"	l	language:Asm
+cpi	/home/zinc/ntua/micro/ex6/3.asm	/^cpi temp2,7$/;"	l	language:Asm
+cpi	/home/zinc/ntua/micro/ex6/3.asm	/^cpi temp2,9$/;"	l	language:Asm
+dec	/home/zinc/ntua/micro/ex6/2.asm	/^dec temp2$/;"	l	language:Asm
+F1	/home/zinc/ntua/micro/ex6/3.asm	/^F1:$/;"	l	language:Asm
+F2	/home/zinc/ntua/micro/ex6/3.asm	/^F2:$/;"	l	language:Asm
+F3	/home/zinc/ntua/micro/ex6/3.asm	/^F3:$/;"	l	language:Asm
+F4	/home/zinc/ntua/micro/ex6/3.asm	/^F4:$/;"	l	language:Asm
+F5	/home/zinc/ntua/micro/ex6/3.asm	/^F5:$/;"	l	language:Asm
+in	/home/zinc/ntua/micro/ex6/1.asm	/^in temp,PIND ; get input$/;"	l	language:Asm
+in	/home/zinc/ntua/micro/ex6/2.asm	/^in temp,PINC ; take input$/;"	l	language:Asm
+in	/home/zinc/ntua/micro/ex6/3.asm	/^in temp2,PIND ;take SW input$/;"	l	language:Asm
+Input	/home/zinc/ntua/micro/ex6/3.asm	/^Input:$/;"	l	language:Asm
+jmp	/home/zinc/ntua/micro/ex6/1.asm	/^jmp checkleds$/;"	l	language:Asm
+jmp	/home/zinc/ntua/micro/ex6/1.asm	/^jmp checkleds$/;"	l	language:Asm
+jmp	/home/zinc/ntua/micro/ex6/1.asm	/^jmp normal$/;"	l	language:Asm
+jmp	/home/zinc/ntua/micro/ex6/1.asm	/^jmp reverse$/;"	l	language:Asm
+jmp	/home/zinc/ntua/micro/ex6/2.asm	/^jmp X1$/;"	l	language:Asm
+jmp	/home/zinc/ntua/micro/ex6/2.asm	/^jmp X_2$/;"	l	language:Asm
+jmp	/home/zinc/ntua/micro/ex6/3.asm	/^jmp Input ;do it again$/;"	l	language:Asm
+jmp	/home/zinc/ntua/micro/ex6/3.asm	/^jmp Input$/;"	l	language:Asm
+jmp	/home/zinc/ntua/micro/ex6/3.asm	/^jmp Input$/;"	l	language:Asm
+jmp	/home/zinc/ntua/micro/ex6/3.asm	/^jmp Input$/;"	l	language:Asm
+jmp	/home/zinc/ntua/micro/ex6/3.asm	/^jmp Input$/;"	l	language:Asm
+jmp	/home/zinc/ntua/micro/ex6/3.asm	/^jmp Input$/;"	l	language:Asm
+ldi	/home/zinc/ntua/micro/ex6/1.asm	/^ldi counter,150 ; timer new$/;"	l	language:Asm
+ldi	/home/zinc/ntua/micro/ex6/1.asm	/^ldi counter,150 ; timer new$/;"	l	language:Asm
+ldi	/home/zinc/ntua/micro/ex6/1.asm	/^ldi counter,50 ;0,5 sec$/;"	l	language:Asm
+ldi	/home/zinc/ntua/micro/ex6/1.asm	/^ldi counter,50 ;0,5 sec$/;"	l	language:Asm
+ldi	/home/zinc/ntua/micro/ex6/1.asm	/^ldi temp,0b1111111 ; light leds$/;"	l	language:Asm
+ldi	/home/zinc/ntua/micro/ex6/1.asm	/^ldi temp,0b1111111$/;"	l	language:Asm
+ldi	/home/zinc/ntua/micro/ex6/2.asm	/^ldi temp2,112 ;CD`E`$/;"	l	language:Asm
+ldi	/home/zinc/ntua/micro/ex6/2.asm	/^ldi temp2,12 ; AB$/;"	l	language:Asm
+ldi	/home/zinc/ntua/micro/ex6/2.asm	/^ldi temp2,224 ; mask D`EF`$/;"	l	language:Asm
+ldi	/home/zinc/ntua/micro/ex6/2.asm	/^ldi temp2,60 ; mask ABC`D$/;"	l	language:Asm
+ldi	/home/zinc/ntua/micro/ex6/2.asm	/^ldi x0,1$/;"	l	language:Asm
+ldi	/home/zinc/ntua/micro/ex6/2.asm	/^ldi x1,1$/;"	l	language:Asm
+ldi	/home/zinc/ntua/micro/ex6/3.asm	/^ldi temp,1$/;"	l	language:Asm
+ldi	/home/zinc/ntua/micro/ex6/3.asm	/^ldi temp,3 ; leds 0-1$/;"	l	language:Asm
+loop1	/home/zinc/ntua/micro/ex6/1.asm	/^loop1: $/;"	l	language:Asm
+loop1	/home/zinc/ntua/micro/ex6/1.asm	/^loop1: $/;"	l	language:Asm
+loop2	/home/zinc/ntua/micro/ex6/1.asm	/^loop2:$/;"	l	language:Asm
+loop2	/home/zinc/ntua/micro/ex6/1.asm	/^loop2:$/;"	l	language:Asm
+lsl	/home/zinc/ntua/micro/ex6/2.asm	/^lsl temp2 ; rotate bits$/;"	l	language:Asm
+lsl	/home/zinc/ntua/micro/ex6/2.asm	/^lsl temp2$/;"	l	language:Asm
+lsl	/home/zinc/ntua/micro/ex6/2.asm	/^lsl x1 ; now it is in the correct place$/;"	l	language:Asm
+lsl	/home/zinc/ntua/micro/ex6/3.asm	/^lsl temp ; rotate 2 times left$/;"	l	language:Asm
+lsl	/home/zinc/ntua/micro/ex6/3.asm	/^lsl temp$/;"	l	language:Asm
+lsl	/home/zinc/ntua/micro/ex6/3.asm	/^lsl temp$/;"	l	language:Asm
+lsr	/home/zinc/ntua/micro/ex6/3.asm	/^lsr temp ;ratate 2 times right$/;"	l	language:Asm
+lsr	/home/zinc/ntua/micro/ex6/3.asm	/^lsr temp$/;"	l	language:Asm
+lsr	/home/zinc/ntua/micro/ex6/3.asm	/^lsr temp$/;"	l	language:Asm
+normal	/home/zinc/ntua/micro/ex6/1.asm	/^normal:$/;"	l	language:Asm
+out	/home/zinc/ntua/micro/ex6/1.asm	/^out DDRB,temp ; portb enable$/;"	l	language:Asm
+out	/home/zinc/ntua/micro/ex6/1.asm	/^out DDRD,temp$/;"	l	language:Asm
+out	/home/zinc/ntua/micro/ex6/1.asm	/^out PORTB,temp ; close leds$/;"	l	language:Asm
+out	/home/zinc/ntua/micro/ex6/1.asm	/^out PORTB,temp$/;"	l	language:Asm
+out	/home/zinc/ntua/micro/ex6/1.asm	/^out PORTB,temp$/;"	l	language:Asm
+out	/home/zinc/ntua/micro/ex6/1.asm	/^out PORTB,temp$/;"	l	language:Asm
+out	/home/zinc/ntua/micro/ex6/1.asm	/^out PORTB,temp$/;"	l	language:Asm
+out	/home/zinc/ntua/micro/ex6/1.asm	/^out PORTD,temp ; pull up D port$/;"	l	language:Asm
+out	/home/zinc/ntua/micro/ex6/2.asm	/^out DDRA,temp ; porta enable for output$/;"	l	language:Asm
+out	/home/zinc/ntua/micro/ex6/2.asm	/^out DDRC,temp$/;"	l	language:Asm
+out	/home/zinc/ntua/micro/ex6/2.asm	/^out PORTA,temp2$/;"	l	language:Asm
+out	/home/zinc/ntua/micro/ex6/2.asm	/^out PORTC,temp ; pull up C port$/;"	l	language:Asm
+out	/home/zinc/ntua/micro/ex6/3.asm	/^out DDRB,temp ; porta enable for output$/;"	l	language:Asm
+out	/home/zinc/ntua/micro/ex6/3.asm	/^out DDRD,temp$/;"	l	language:Asm
+out	/home/zinc/ntua/micro/ex6/3.asm	/^out PORTB,temp ;rotate leds$/;"	l	language:Asm
+out	/home/zinc/ntua/micro/ex6/3.asm	/^out PORTB,temp ;rotate leds$/;"	l	language:Asm
+out	/home/zinc/ntua/micro/ex6/3.asm	/^out PORTB,temp$/;"	l	language:Asm
+out	/home/zinc/ntua/micro/ex6/3.asm	/^out PORTB,temp$/;"	l	language:Asm
+out	/home/zinc/ntua/micro/ex6/3.asm	/^out PORTB,temp$/;"	l	language:Asm
+out	/home/zinc/ntua/micro/ex6/3.asm	/^out PORTB,temp$/;"	l	language:Asm
+out	/home/zinc/ntua/micro/ex6/3.asm	/^out PORTD,temp ; pull up C port$/;"	l	language:Asm
+rcall	/home/zinc/ntua/micro/ex6/1.asm	/^rcall Delay10$/;"	l	language:Asm
+rcall	/home/zinc/ntua/micro/ex6/1.asm	/^rcall Delay10$/;"	l	language:Asm
+rcall	/home/zinc/ntua/micro/ex6/1.asm	/^rcall Delay10$/;"	l	language:Asm
+rcall	/home/zinc/ntua/micro/ex6/1.asm	/^rcall Delay10$/;"	l	language:Asm
+reverse	/home/zinc/ntua/micro/ex6/1.asm	/^reverse:$/;"	l	language:Asm
+sbrc	/home/zinc/ntua/micro/ex6/1.asm	/^sbrc temp,7 ; check if msb of input is 1$/;"	l	language:Asm
+sbrc	/home/zinc/ntua/micro/ex6/2.asm	/^sbrc temp2,2 ; check if the number is 2$/;"	l	language:Asm
+ser	/home/zinc/ntua/micro/ex6/1.asm	/^ser temp$/;"	l	language:Asm
+ser	/home/zinc/ntua/micro/ex6/2.asm	/^ser temp$/;"	l	language:Asm
+ser	/home/zinc/ntua/micro/ex6/3.asm	/^ser temp$/;"	l	language:Asm
+Set_x0	/home/zinc/ntua/micro/ex6/2.asm	/^Set_x0:$/;"	l	language:Asm
+Set_x1	/home/zinc/ntua/micro/ex6/2.asm	/^Set_x1:$/;"	l	language:Asm
+Start	/home/zinc/ntua/micro/ex6/3.asm	/^Start:$/;"	l	language:Asm
+subi	/home/zinc/ntua/micro/ex6/1.asm	/^subi counter,1$/;"	l	language:Asm
+subi	/home/zinc/ntua/micro/ex6/1.asm	/^subi counter,1$/;"	l	language:Asm
+subi	/home/zinc/ntua/micro/ex6/1.asm	/^subi counter,1$/;"	l	language:Asm
+subi	/home/zinc/ntua/micro/ex6/1.asm	/^subi counter,1$/;"	l	language:Asm
+X1	/home/zinc/ntua/micro/ex6/2.asm	/^X1:$/;"	l	language:Asm
+X_2	/home/zinc/ntua/micro/ex6/2.asm	/^X_2:$/;"	l	language:Asm

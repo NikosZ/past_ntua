@@ -1,0 +1,38 @@
+desc: (none)
+cmd: ./a.out
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=1351771
+mem_heap_B=552
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=1352913
+mem_heap_B=552
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=peak
+n1: 552 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 552 0x53C311B: __fopen_internal (iofopen.c:69)
+  n0: 552 0x400C20: main (in /home/zinc/ntua/pl1/ex2/a.out)
+#-----------
+snapshot=3
+#-----------
+time=1352913
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty

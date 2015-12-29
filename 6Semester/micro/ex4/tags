@@ -1,0 +1,131 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+ADD	/home/zinc/ntua/micro/ex4/ask1.asm	/^ADD D ; now it has its BCD form$/;"	l	language:Asm
+ADD	/home/zinc/ntua/micro/ex4/ask1.asm	/^ADD D ; now it has its BCD form$/;"	l	language:Asm
+ADD	/home/zinc/ntua/micro/ex4/ask4.asm	/^ADD B ; now we have the number$/;"	l	language:Asm
+ANI	/home/zinc/ntua/micro/ex4/ask1.asm	/^ANI 0FH ;first 4 bytes to store$/;"	l	language:Asm
+ANI	/home/zinc/ntua/micro/ex4/ask1.asm	/^ANI F0H ;mask 4-MSB bits$/;"	l	language:Asm
+ANI	/home/zinc/ntua/micro/ex4/ask4.asm	/^ANI 0FH ;mask number in case of rubbish$/;"	l	language:Asm
+ANI	/home/zinc/ntua/micro/ex4/ask4.asm	/^ANI F0H ; mask in case$/;"	l	language:Asm
+BCD	/home/zinc/ntua/micro/ex4/ask1.asm	/^BCD:$/;"	l	language:Asm
+BCD1	/home/zinc/ntua/micro/ex4/ask1.asm	/^BCD1:$/;"	l	language:Asm
+CALL	/home/zinc/ntua/micro/ex4/ask1.asm	/^CALL DCD$/;"	l	language:Asm
+CALL	/home/zinc/ntua/micro/ex4/ask1.asm	/^CALL DELB$/;"	l	language:Asm
+CALL	/home/zinc/ntua/micro/ex4/ask1.asm	/^CALL STDM$/;"	l	language:Asm
+CLOSE	/home/zinc/ntua/micro/ex4/ask1.asm	/^CLOSE:$/;"	l	language:Asm
+CPI	/home/zinc/ntua/micro/ex4/ask1.asm	/^CPI 0AH ; 10 to find how many dozens$/;"	l	language:Asm
+CPI	/home/zinc/ntua/micro/ex4/ask1.asm	/^CPI 0AH ; 10 to find how many dozens$/;"	l	language:Asm
+DAD	/home/zinc/ntua/micro/ex4/ask4.asm	/^DAD D ; now we add the new value$/;"	l	language:Asm
+DAD	/home/zinc/ntua/micro/ex4/ask4.asm	/^DAD H ; 4 thesis aristera , prepei alli mia thesi$/;"	l	language:Asm
+DAD	/home/zinc/ntua/micro/ex4/ask4.asm	/^DAD H$/;"	l	language:Asm
+DCR	/home/zinc/ntua/micro/ex4/ask1.asm	/^DCR C ; -1 second$/;"	l	language:Asm
+DCR	/home/zinc/ntua/micro/ex4/ask4.asm	/^DCR C ; -1 to counter$/;"	l	language:Asm
+DI	/home/zinc/ntua/micro/ex4/ask1.asm	/^DI ; close iderrupts$/;"	l	language:Asm
+DI	/home/zinc/ntua/micro/ex4/ask4.asm	/^DI ; same$/;"	l	language:Asm
+DI	/home/zinc/ntua/micro/ex4/ask4.asm	/^DI ;stop interupts$/;"	l	language:Asm
+EI	/home/zinc/ntua/micro/ex4/ask1.asm	/^EI ;open iderrupts$/;"	l	language:Asm
+EI	/home/zinc/ntua/micro/ex4/ask1.asm	/^EI$/;"	l	language:Asm
+EI	/home/zinc/ntua/micro/ex4/ask4.asm	/^EI ; enable inderupts $/;"	l	language:Asm
+EI	/home/zinc/ntua/micro/ex4/ask4.asm	/^EI$/;"	l	language:Asm
+ENDI	/home/zinc/ntua/micro/ex4/ask4.asm	/^ENDI: ;find MEAN VALUE$/;"	l	language:Asm
+FIND	/home/zinc/ntua/micro/ex4/ask1.asm	/^FIND:  $/;"	l	language:Asm
+FIND2	/home/zinc/ntua/micro/ex4/ask1.asm	/^FIND2:  $/;"	l	language:Asm
+FIRST	/home/zinc/ntua/micro/ex4/ask4.asm	/^FIRST: $/;"	l	language:Asm
+IN	/home/zinc/ntua/micro/ex4/ask1.asm	/^IN 10H$/;"	l	language:Asm
+IN	/home/zinc/ntua/micro/ex4/ask4.asm	/^IN PORT_IN ; input$/;"	l	language:Asm
+IN	/home/zinc/ntua/micro/ex4/ask4.asm	/^IN PORT_IN$/;"	l	language:Asm
+INR	/home/zinc/ntua/micro/ex4/ask1.asm	/^INR E ; +1 dozen$/;"	l	language:Asm
+INR	/home/zinc/ntua/micro/ex4/ask1.asm	/^INR E ; +1 dozen$/;"	l	language:Asm
+INTR_ROUTINE	/home/zinc/ntua/micro/ex4/ask1.asm	/^INTR_ROUTINE:$/;"	l	language:Asm
+INX	/home/zinc/ntua/micro/ex4/ask1.asm	/^INX H$/;"	l	language:Asm
+JC	/home/zinc/ntua/micro/ex4/ask1.asm	/^JC LAST$/;"	l	language:Asm
+JC	/home/zinc/ntua/micro/ex4/ask1.asm	/^JC LAST2$/;"	l	language:Asm
+JMP	/home/zinc/ntua/micro/ex4/ask1.asm	/^JMP BCD$/;"	l	language:Asm
+JMP	/home/zinc/ntua/micro/ex4/ask1.asm	/^JMP BCD1 ; BCD form of the number$/;"	l	language:Asm
+JMP	/home/zinc/ntua/micro/ex4/ask1.asm	/^JMP FIND$/;"	l	language:Asm
+JMP	/home/zinc/ntua/micro/ex4/ask1.asm	/^JMP FIND2$/;"	l	language:Asm
+JMP	/home/zinc/ntua/micro/ex4/ask1.asm	/^JMP KAT$/;"	l	language:Asm
+JMP	/home/zinc/ntua/micro/ex4/ask1.asm	/^JMP KAT1$/;"	l	language:Asm
+JMP	/home/zinc/ntua/micro/ex4/ask1.asm	/^JMP WAIT1$/;"	l	language:Asm
+JMP	/home/zinc/ntua/micro/ex4/ask1.asm	/^JMP WAIT1$/;"	l	language:Asm
+JMP	/home/zinc/ntua/micro/ex4/ask1.asm	/^JMP WAIT1$/;"	l	language:Asm
+JMP	/home/zinc/ntua/micro/ex4/ask1.asm	/^JMP WAIT2$/;"	l	language:Asm
+JMP	/home/zinc/ntua/micro/ex4/ask1.asm	/^JMP WAIT2$/;"	l	language:Asm
+JMP	/home/zinc/ntua/micro/ex4/ask4.asm	/^JMP WAIT$/;"	l	language:Asm
+JZ	/home/zinc/ntua/micro/ex4/ask1.asm	/^JZ CLOSE$/;"	l	language:Asm
+JZ	/home/zinc/ntua/micro/ex4/ask4.asm	/^JZ ENDI$/;"	l	language:Asm
+KAT	/home/zinc/ntua/micro/ex4/ask1.asm	/^KAT:$/;"	l	language:Asm
+KAT1	/home/zinc/ntua/micro/ex4/ask1.asm	/^KAT1:$/;"	l	language:Asm
+LAST	/home/zinc/ntua/micro/ex4/ask1.asm	/^LAST:$/;"	l	language:Asm
+LAST2	/home/zinc/ntua/micro/ex4/ask1.asm	/^LAST2:$/;"	l	language:Asm
+LXI	/home/zinc/ntua/micro/ex4/ask1.asm	/^LXI B,03E8H ;1 s$/;"	l	language:Asm
+LXI	/home/zinc/ntua/micro/ex4/ask1.asm	/^LXI D,0B00H$/;"	l	language:Asm
+LXI	/home/zinc/ntua/micro/ex4/ask1.asm	/^LXI H,0B04H ; place to store the numbers$/;"	l	language:Asm
+LXI	/home/zinc/ntua/micro/ex4/ask4.asm	/^LXI H,FIRST ; for the next interupt$/;"	l	language:Asm
+LXI	/home/zinc/ntua/micro/ex4/ask4.asm	/^LXI H,FIRST$/;"	l	language:Asm
+LXI	/home/zinc/ntua/micro/ex4/ask4.asm	/^LXI H,SECOND ; for the next RST 5.5$/;"	l	language:Asm
+MOV	/home/zinc/ntua/micro/ex4/ask1.asm	/^MOV A,C$/;"	l	language:Asm
+MOV	/home/zinc/ntua/micro/ex4/ask1.asm	/^MOV A,C$/;"	l	language:Asm
+MOV	/home/zinc/ntua/micro/ex4/ask1.asm	/^MOV A,E ; $/;"	l	language:Asm
+MOV	/home/zinc/ntua/micro/ex4/ask1.asm	/^MOV A,E ; $/;"	l	language:Asm
+MOV	/home/zinc/ntua/micro/ex4/ask1.asm	/^MOV D,A ;$/;"	l	language:Asm
+MOV	/home/zinc/ntua/micro/ex4/ask1.asm	/^MOV D,A ;$/;"	l	language:Asm
+MOV	/home/zinc/ntua/micro/ex4/ask1.asm	/^MOV M,A$/;"	l	language:Asm
+MOV	/home/zinc/ntua/micro/ex4/ask1.asm	/^MOV M,A$/;"	l	language:Asm
+MOV	/home/zinc/ntua/micro/ex4/ask4.asm	/^MOV A,H $/;"	l	language:Asm
+MOV	/home/zinc/ntua/micro/ex4/ask4.asm	/^MOV A,L $/;"	l	language:Asm
+MOV	/home/zinc/ntua/micro/ex4/ask4.asm	/^MOV B,A ; save value to B$/;"	l	language:Asm
+MOV	/home/zinc/ntua/micro/ex4/ask4.asm	/^MOV E,A ; $/;"	l	language:Asm
+MVI	/home/zinc/ntua/micro/ex4/ask1.asm	/^MVI A,00H ; Light all the led $/;"	l	language:Asm
+MVI	/home/zinc/ntua/micro/ex4/ask1.asm	/^MVI A,0DH$/;"	l	language:Asm
+MVI	/home/zinc/ntua/micro/ex4/ask1.asm	/^MVI A,FFH$/;"	l	language:Asm
+MVI	/home/zinc/ntua/micro/ex4/ask1.asm	/^MVI C,3CH ; reset counter$/;"	l	language:Asm
+MVI	/home/zinc/ntua/micro/ex4/ask1.asm	/^MVI D,00H ; 0-9$/;"	l	language:Asm
+MVI	/home/zinc/ntua/micro/ex4/ask1.asm	/^MVI D,00H ; 0-9$/;"	l	language:Asm
+MVI	/home/zinc/ntua/micro/ex4/ask1.asm	/^MVI E,00H ; dozens$/;"	l	language:Asm
+MVI	/home/zinc/ntua/micro/ex4/ask1.asm	/^MVI E,00H ; dozens$/;"	l	language:Asm
+MVI	/home/zinc/ntua/micro/ex4/ask4.asm	/^MVI A,0DH $/;"	l	language:Asm
+MVI	/home/zinc/ntua/micro/ex4/ask4.asm	/^MVI C,20H ;COUNTER $/;"	l	language:Asm
+MVI	/home/zinc/ntua/micro/ex4/ask4.asm	/^MVI D,00H ;$/;"	l	language:Asm
+MVI	/home/zinc/ntua/micro/ex4/ask4.asm	/^MVI H,00H $/;"	l	language:Asm
+MVI	/home/zinc/ntua/micro/ex4/ask4.asm	/^MVI L,00H  ; prosthesi diplis akrivias$/;"	l	language:Asm
+POP	/home/zinc/ntua/micro/ex4/ask1.asm	/^POP D$/;"	l	language:Asm
+POP	/home/zinc/ntua/micro/ex4/ask1.asm	/^POP D$/;"	l	language:Asm
+POP	/home/zinc/ntua/micro/ex4/ask4.asm	/^POP H ; now we have the sum till now$/;"	l	language:Asm
+POP	/home/zinc/ntua/micro/ex4/ask4.asm	/^POP H$/;"	l	language:Asm
+PUSH	/home/zinc/ntua/micro/ex4/ask1.asm	/^PUSH D$/;"	l	language:Asm
+PUSH	/home/zinc/ntua/micro/ex4/ask1.asm	/^PUSH D$/;"	l	language:Asm
+PUSH	/home/zinc/ntua/micro/ex4/ask4.asm	/^PUSH H$/;"	l	language:Asm
+PUSH	/home/zinc/ntua/micro/ex4/ask4.asm	/^PUSH H$/;"	l	language:Asm
+RAL	/home/zinc/ntua/micro/ex4/ask4.asm	/^RAL ; now the MSB of L is the LSB of H$/;"	l	language:Asm
+RET	/home/zinc/ntua/micro/ex4/ask4.asm	/^RET$/;"	l	language:Asm
+RET	/home/zinc/ntua/micro/ex4/ask4.asm	/^RET$/;"	l	language:Asm
+RLC	/home/zinc/ntua/micro/ex4/ask1.asm	/^RLC $/;"	l	language:Asm
+RLC	/home/zinc/ntua/micro/ex4/ask1.asm	/^RLC $/;"	l	language:Asm
+RLC	/home/zinc/ntua/micro/ex4/ask1.asm	/^RLC$/;"	l	language:Asm
+RLC	/home/zinc/ntua/micro/ex4/ask1.asm	/^RLC$/;"	l	language:Asm
+RLC	/home/zinc/ntua/micro/ex4/ask1.asm	/^RLC$/;"	l	language:Asm
+RLC	/home/zinc/ntua/micro/ex4/ask1.asm	/^RLC$/;"	l	language:Asm
+RLC	/home/zinc/ntua/micro/ex4/ask1.asm	/^RLC$/;"	l	language:Asm
+RLC	/home/zinc/ntua/micro/ex4/ask1.asm	/^RLC$/;"	l	language:Asm
+RLC	/home/zinc/ntua/micro/ex4/ask4.asm	/^RLC ; now the carry has the MSB bit of L$/;"	l	language:Asm
+RLC	/home/zinc/ntua/micro/ex4/ask4.asm	/^RLC ;rotete to MSB$/;"	l	language:Asm
+RLC	/home/zinc/ntua/micro/ex4/ask4.asm	/^RLC$/;"	l	language:Asm
+RLC	/home/zinc/ntua/micro/ex4/ask4.asm	/^RLC$/;"	l	language:Asm
+RLC	/home/zinc/ntua/micro/ex4/ask4.asm	/^RLC$/;"	l	language:Asm
+RRC	/home/zinc/ntua/micro/ex4/ask1.asm	/^RRC ; next 4 bits , the dozens$/;"	l	language:Asm
+RRC	/home/zinc/ntua/micro/ex4/ask1.asm	/^RRC$/;"	l	language:Asm
+RRC	/home/zinc/ntua/micro/ex4/ask1.asm	/^RRC$/;"	l	language:Asm
+RRC	/home/zinc/ntua/micro/ex4/ask1.asm	/^RRC$/;"	l	language:Asm
+SECOND	/home/zinc/ntua/micro/ex4/ask4.asm	/^SECOND :$/;"	l	language:Asm
+SHLD	/home/zinc/ntua/micro/ex4/ask4.asm	/^SHLD 002DH$/;"	l	language:Asm
+SHLD	/home/zinc/ntua/micro/ex4/ask4.asm	/^SHLD 002DH$/;"	l	language:Asm
+SHLD	/home/zinc/ntua/micro/ex4/ask4.asm	/^SHLD 0035H$/;"	l	language:Asm
+SIM	/home/zinc/ntua/micro/ex4/ask1.asm	/^SIM$/;"	l	language:Asm
+SIM	/home/zinc/ntua/micro/ex4/ask4.asm	/^SIM ;mask for interupts$/;"	l	language:Asm
+STA	/home/zinc/ntua/micro/ex4/ask1.asm	/^STA 3000H ; close leds$/;"	l	language:Asm
+STA	/home/zinc/ntua/micro/ex4/ask1.asm	/^STA 3000H$/;"	l	language:Asm
+SUI	/home/zinc/ntua/micro/ex4/ask1.asm	/^SUI 0AH$/;"	l	language:Asm
+SUI	/home/zinc/ntua/micro/ex4/ask1.asm	/^SUI 0AH$/;"	l	language:Asm
+WAIT	/home/zinc/ntua/micro/ex4/ask4.asm	/^WAIT:$/;"	l	language:Asm
+WAIT1	/home/zinc/ntua/micro/ex4/ask1.asm	/^WAIT1:$/;"	l	language:Asm
+WAIT2	/home/zinc/ntua/micro/ex4/ask1.asm	/^WAIT2:$/;"	l	language:Asm

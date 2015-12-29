@@ -1,0 +1,90 @@
+set ns [new Simulator]
+set nf [open lab3.nam w]
+set xf [open lab31.tr w]
+set xf1 [open lab32.tr w]
+set calc0 0 
+set calc1 0 
+Agent/rtProto/Direct set preference_ 200
+$ns rtproto DV
+$ns namtrace-all $nf
+proc record {} {
+	global sink0 sink3 xf xf1 calc0 calc1
+	set ns [Simulator instance]
+	set time 0.015
+	set bw0 [$sink3 set bytes_]
+	set bw3 [$sink0 set bytes_]
+	set now [$ns now]
+	set calc0 [expr [$sink3 set bytes_]+$calc0]
+	set calc1 [expr [$sink0 set bytes_]+$calc1]
+	puts $xf "$now [expr (($bw0/$time *8)/1000000)]"
+
+	puts $xf1 "$now [expr (($bw3/$time *8)/1000000)]"
+	$sink0 set bytes_ 0
+	$sink3 set bytes_ 0
+	$ns at [expr $now+$time] "record"
+}
+proc finish {} {
+ global ns nf xf xf1 calc0 calc1
+ $ns flush-trace
+ close $nf
+ close $xf1
+ close $xf
+ puts $calc0
+ puts $calc1
+ exit 0
+} 
+for {set i 0} {$i < 9} {incr i} {
+	set n($i) [$ns node]
+}
+
+for {set i 0} {$i < 7} {incr i} {
+	$ns duplex-link $n($i) $n([expr ($i+1)%7]) 2Mb 40ms DropTail
+	$ns cost $n($i) $n([expr ($i+1)%7]) 4 
+	$ns cost $n([expr ($i+1)%7]) $n($i) 4
+}
+$ns duplex-link $n(7) $n(1) 2Mb 20ms DropTail
+$ns cost $n(7) $n(1) 2
+$ns duplex-link $n(7) $n(5) 2Mb 10ms DropTail
+$ns cost $n(1) $n(7) 2
+$ns duplex-link $n(8) $n(5) 2Mb 10ms DropTail
+$ns duplex-link $n(8) $n(2) 2Mb 40ms DropTail 
+set udp0 [new Agent/UDP]
+$ns cost $n(8) $n(2) 4
+$ns cost $n(2) $n(8) 4
+
+$ns attach-agent $n(0) $udp0
+$udp0 set fid_ 0
+$ns color 0 green
+set sink0 [new Agent/LossMonitor]
+$ns attach-agent $n(0) $sink0
+$udp0 set packetSize_ 1500
+set udp3 [new Agent/UDP]
+
+$ns attach-agent $n(3) $udp3
+$udp3 set fid_ 3
+$udp3 set packetSize_ 1500
+$ns color 3 yellow
+set sink3 [new Agent/LossMonitor]
+$ns attach-agent $n(3) $sink3
+
+$ns connect $udp0 $sink3
+$ns connect $udp3 $sink0
+
+set cbr0 [new Application/Traffic/CBR]
+$cbr0 set packetSize_ 1500
+$cbr0 set interval_ 0.015
+$cbr0 attach-agent $udp0
+
+set cbr3 [new Application/Traffic/Exponential]
+$cbr3 set packetSize_ 1500
+$cbr3 set rate_ 800k
+$cbr3 set interval_ 0.015
+$cbr3 attach-agent $udp3
+$ns at 0.0 "record"
+$ns at 0.2 "$cbr0 start"
+$ns at 0.7 "$cbr3 start"
+$ns at 27.8 "$cbr3 stop"
+$ns at 27.8 "$cbr0 stop"
+$ns at 27.9 "finish"
+
+$ns run

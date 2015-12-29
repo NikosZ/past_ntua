@@ -1,0 +1,812 @@
+desc: (none)
+cmd: ./a.out a.txt
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=1351799
+mem_heap_B=552
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=1355400
+mem_heap_B=2144
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=1357845
+mem_heap_B=2184
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=1360337
+mem_heap_B=2224
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=1360573
+mem_heap_B=2352
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=1361616
+mem_heap_B=2352
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=detailed
+n5: 2352 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 1592 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 552 0x53C311B: __fopen_internal (iofopen.c:69)
+  n0: 552 0x400C20: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n0: 80 0x400DEE: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n2: 80 0x403C09: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_copy(std::_Rb_tree_node<int> const*, std::_Rb_tree_node<int>*) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 40 0x4041AA: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::_M_insert_aux(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, std::set<int, std::less<int>, std::allocator<int> > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 40 0x401004: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 40 0x403C40: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_copy(std::_Rb_tree_node<int> const*, std::_Rb_tree_node<int>*) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 40 0x4041AA: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::_M_insert_aux(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, std::set<int, std::less<int>, std::allocator<int> > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 40 0x401004: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 48 0x40416D: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::_M_insert_aux(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, std::set<int, std::less<int>, std::allocator<int> > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 48 0x401004: main (in /home/zinc/ntua/pl1/ex2/a.out)
+#-----------
+snapshot=7
+#-----------
+time=1361651
+mem_heap_B=2272
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=1362920
+mem_heap_B=2312
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=1363624
+mem_heap_B=2352
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=1364347
+mem_heap_B=2400
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=1365618
+mem_heap_B=2440
+mem_heap_extra_B=120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=1366498
+mem_heap_B=2536
+mem_heap_extra_B=136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=1367767
+mem_heap_B=2576
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=1368787
+mem_heap_B=2616
+mem_heap_extra_B=168
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=1370056
+mem_heap_B=2656
+mem_heap_extra_B=184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=1370762
+mem_heap_B=2696
+mem_heap_extra_B=200
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=1371469
+mem_heap_B=2736
+mem_heap_extra_B=216
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=1372210
+mem_heap_B=3440
+mem_heap_extra_B=352
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=1372850
+mem_heap_B=3048
+mem_heap_extra_B=248
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=1373476
+mem_heap_B=3048
+mem_heap_extra_B=248
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=1374013
+mem_heap_B=3128
+mem_heap_extra_B=280
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=1374750
+mem_heap_B=2968
+mem_heap_extra_B=216
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=1375503
+mem_heap_B=2968
+mem_heap_extra_B=216
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=1376183
+mem_heap_B=3048
+mem_heap_extra_B=248
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=1376975
+mem_heap_B=3128
+mem_heap_extra_B=280
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=1377449
+mem_heap_B=2968
+mem_heap_extra_B=216
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=1378229
+mem_heap_B=3048
+mem_heap_extra_B=248
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=1378911
+mem_heap_B=3048
+mem_heap_extra_B=248
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=1379345
+mem_heap_B=3008
+mem_heap_extra_B=232
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=1380011
+mem_heap_B=3408
+mem_heap_extra_B=304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=1380760
+mem_heap_B=4656
+mem_heap_extra_B=400
+mem_stacks_B=0
+heap_tree=detailed
+n9: 4656 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 1592 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n2: 960 0x403508: std::_Deque_base<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_initialize_map(unsigned long) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 480 0x40156E: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 480 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 480 0x401611: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 480 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n5: 640 0x403C09: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_copy(std::_Rb_tree_node<int> const*, std::_Rb_tree_node<int>*) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n3: 240 0x403C40: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_copy(std::_Rb_tree_node<int> const*, std::_Rb_tree_node<int>*) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 120 0x403D97: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::vector(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 120 0x401064: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 80 0x404795: void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n1: 80 0x404C3B: void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+     n0: 80 0x401034: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 40 in 9 places, all below massif's threshold (01.00%)
+  n1: 200 0x403D97: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::vector(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 200 0x401064: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 80 0x404795: void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 80 0x404C3B: void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 80 0x401034: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 80 0x404AFB: void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 80 0x401034: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 40 in 10 places, all below massif's threshold (01.00%)
+ n1: 552 0x53C311B: __fopen_internal (iofopen.c:69)
+  n0: 552 0x400C20: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 384 0x40416D: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::_M_insert_aux(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, std::set<int, std::less<int>, std::allocator<int> > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 384 0x401004: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 240 0x403E0B: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::vector(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 240 0x401064: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n2: 160 0x403C60: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_copy(std::_Rb_tree_node<int> const*, std::_Rb_tree_node<int>*) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 80 0x403D97: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::vector(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 80 0x401064: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 80 in 8 places, all below massif's threshold (01.00%)
+ n2: 128 0x4034D6: std::_Deque_base<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_initialize_map(unsigned long) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 64 0x40156E: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 64 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 64 0x401611: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 64 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n0: 0 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=32
+#-----------
+time=1381158
+mem_heap_B=4122
+mem_heap_extra_B=446
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=1382381
+mem_heap_B=4120
+mem_heap_extra_B=424
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=1383010
+mem_heap_B=4180
+mem_heap_extra_B=492
+mem_stacks_B=0
+heap_tree=detailed
+n9: 4180 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 1592 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n5: 640 0x403C09: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_copy(std::_Rb_tree_node<int> const*, std::_Rb_tree_node<int>*) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n3: 240 0x403C40: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_copy(std::_Rb_tree_node<int> const*, std::_Rb_tree_node<int>*) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 120 0x403D97: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::vector(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 120 0x401064: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 80 0x404795: void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n1: 80 0x404C3B: void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+     n0: 80 0x401034: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 40 in 9 places, all below massif's threshold (01.00%)
+  n1: 200 0x403D97: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::vector(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 200 0x401064: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 80 0x404795: void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 80 0x404C3B: void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 80 0x401034: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 80 0x404AFB: void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 80 0x401034: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 40 in 10 places, all below massif's threshold (01.00%)
+ n1: 552 0x53C311B: __fopen_internal (iofopen.c:69)
+  n0: 552 0x400C20: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n2: 480 0x403508: std::_Deque_base<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_initialize_map(unsigned long) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 480 0x401611: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 480 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 384 0x40416D: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::_M_insert_aux(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, std::set<int, std::less<int>, std::allocator<int> > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 384 0x401004: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 240 0x403E0B: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::vector(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 240 0x401064: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n2: 160 0x403C60: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_copy(std::_Rb_tree_node<int> const*, std::_Rb_tree_node<int>*) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 80 0x403D97: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::vector(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 80 0x401064: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 80 in 8 places, all below massif's threshold (01.00%)
+ n0: 68 in 7 places, all below massif's threshold (01.00%)
+ n2: 64 0x4034D6: std::_Deque_base<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_initialize_map(unsigned long) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 64 0x401611: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 64 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=35
+#-----------
+time=1383477
+mem_heap_B=4176
+mem_heap_extra_B=472
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=1385133
+mem_heap_B=4176
+mem_heap_extra_B=472
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=1385860
+mem_heap_B=4182
+mem_heap_extra_B=514
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=1386330
+mem_heap_B=4232
+mem_heap_extra_B=520
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=1387011
+mem_heap_B=4226
+mem_heap_extra_B=526
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=1387633
+mem_heap_B=4242
+mem_heap_extra_B=574
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=1388352
+mem_heap_B=4278
+mem_heap_extra_B=578
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=1389278
+mem_heap_B=4284
+mem_heap_extra_B=588
+mem_stacks_B=0
+heap_tree=detailed
+n10: 4284 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 1592 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n5: 640 0x403C09: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_copy(std::_Rb_tree_node<int> const*, std::_Rb_tree_node<int>*) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n3: 240 0x403C40: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_copy(std::_Rb_tree_node<int> const*, std::_Rb_tree_node<int>*) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 120 0x403D97: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::vector(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 120 0x401064: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 80 0x404795: void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n1: 80 0x404C3B: void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+     n0: 80 0x401034: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 40 in 9 places, all below massif's threshold (01.00%)
+  n1: 200 0x403D97: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::vector(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 200 0x401064: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 80 0x404795: void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 80 0x404C3B: void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 80 0x401034: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 80 0x404AFB: void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 80 0x401034: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 40 in 10 places, all below massif's threshold (01.00%)
+ n1: 552 0x53C311B: __fopen_internal (iofopen.c:69)
+  n0: 552 0x400C20: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n2: 480 0x403508: std::_Deque_base<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_initialize_map(unsigned long) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 480 0x401611: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 480 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 384 0x40416D: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::_M_insert_aux(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, std::set<int, std::less<int>, std::allocator<int> > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 384 0x401004: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 240 0x403E0B: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::vector(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 240 0x401064: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n2: 160 0x403C60: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_copy(std::_Rb_tree_node<int> const*, std::_Rb_tree_node<int>*) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 80 0x403D97: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::vector(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 80 0x401064: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 80 in 8 places, all below massif's threshold (01.00%)
+ n1: 120 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 120 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 80 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 80 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 40 in 1 place, below massif's threshold (01.00%)
+ n2: 64 0x4034D6: std::_Deque_base<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_initialize_map(unsigned long) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 64 0x401611: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 64 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n0: 52 in 12 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=43
+#-----------
+time=1389836
+mem_heap_B=4338
+mem_heap_extra_B=614
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=1390441
+mem_heap_B=4334
+mem_heap_extra_B=578
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=1391428
+mem_heap_B=4374
+mem_heap_extra_B=658
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=1392306
+mem_heap_B=4388
+mem_heap_extra_B=628
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=1392975
+mem_heap_B=4444
+mem_heap_extra_B=732
+mem_stacks_B=0
+heap_tree=peak
+n10: 4444 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 1592 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n5: 640 0x403C09: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_copy(std::_Rb_tree_node<int> const*, std::_Rb_tree_node<int>*) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n3: 240 0x403C40: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_copy(std::_Rb_tree_node<int> const*, std::_Rb_tree_node<int>*) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 120 0x403D97: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::vector(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 120 0x401064: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 80 0x404795: void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n1: 80 0x404C3B: void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+     n0: 80 0x401034: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 40 in 9 places, all below massif's threshold (01.00%)
+  n1: 200 0x403D97: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::vector(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 200 0x401064: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 80 0x404795: void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 80 0x404C3B: void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 80 0x401034: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 80 0x404AFB: void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 80 0x401034: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 40 in 10 places, all below massif's threshold (01.00%)
+ n1: 552 0x53C311B: __fopen_internal (iofopen.c:69)
+  n0: 552 0x400C20: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n2: 480 0x403508: std::_Deque_base<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_initialize_map(unsigned long) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 480 0x401611: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 480 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 384 0x40416D: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::_M_insert_aux(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, std::set<int, std::less<int>, std::allocator<int> > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 384 0x401004: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 240 0x403E0B: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::vector(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 240 0x401064: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 240 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 240 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 200 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 200 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 40 in 1 place, below massif's threshold (01.00%)
+ n2: 160 0x403C60: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_copy(std::_Rb_tree_node<int> const*, std::_Rb_tree_node<int>*) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 80 0x403D97: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::vector(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 80 0x401064: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 80 in 8 places, all below massif's threshold (01.00%)
+ n0: 92 in 12 places, all below massif's threshold (01.00%)
+ n2: 64 0x4034D6: std::_Deque_base<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > >, std::allocator<std::pair<std::vector<short, std::allocator<short> >, std::vector<int, std::allocator<int> > > > >::_M_initialize_map(unsigned long) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 64 0x401611: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 64 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 0 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=48
+#-----------
+time=1393870
+mem_heap_B=3888
+mem_heap_extra_B=520
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=1394492
+mem_heap_B=3540
+mem_heap_extra_B=380
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=1394554
+mem_heap_B=3500
+mem_heap_extra_B=364
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=1394596
+mem_heap_B=3460
+mem_heap_extra_B=348
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=1394654
+mem_heap_B=3420
+mem_heap_extra_B=332
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=1394699
+mem_heap_B=3180
+mem_heap_extra_B=324
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=1394786
+mem_heap_B=3220
+mem_heap_extra_B=340
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=1394926
+mem_heap_B=3260
+mem_heap_extra_B=356
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=1395082
+mem_heap_B=3300
+mem_heap_extra_B=388
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=1401209
+mem_heap_B=3260
+mem_heap_extra_B=372
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=1401244
+mem_heap_B=3220
+mem_heap_extra_B=340
+mem_stacks_B=0
+heap_tree=detailed
+n8: 3220 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 1592 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 552 0x53C311B: __fopen_internal (iofopen.c:69)
+  n0: 552 0x400C20: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 384 0x40416D: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::_M_insert_aux(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, std::set<int, std::less<int>, std::allocator<int> > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 384 0x401004: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n5: 320 0x403C09: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_copy(std::_Rb_tree_node<int> const*, std::_Rb_tree_node<int>*) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n3: 120 0x403C40: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_copy(std::_Rb_tree_node<int> const*, std::_Rb_tree_node<int>*) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 80 0x404795: void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n1: 80 0x404C3B: void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+     n0: 80 0x401034: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 40 0x404AFB: void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 40 0x401034: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 0 in 9 places, all below massif's threshold (01.00%)
+  n1: 80 0x404795: void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 80 0x404C3B: void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 80 0x401034: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 80 0x404AFB: void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 80 0x401034: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 40 0x404B98: void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 40 0x401034: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 0 in 10 places, all below massif's threshold (01.00%)
+ n1: 240 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 240 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 200 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 200 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 40 0x401B3C: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 40 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n3: 80 0x403C60: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_copy(std::_Rb_tree_node<int> const*, std::_Rb_tree_node<int>*) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 40 0x404795: void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 40 0x404C3B: void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 40 0x401034: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 40 0x404AFB: void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n0: 40 0x401034: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 0 in 7 places, all below massif's threshold (01.00%)
+ n0: 40 0x401132: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n0: 12 in 16 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=59
+#-----------
+time=1401286
+mem_heap_B=3180
+mem_heap_extra_B=324
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=1401329
+mem_heap_B=3168
+mem_heap_extra_B=312
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=1401401
+mem_heap_B=3128
+mem_heap_extra_B=296
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=1401463
+mem_heap_B=3088
+mem_heap_extra_B=280
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=1401505
+mem_heap_B=3048
+mem_heap_extra_B=264
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=1401570
+mem_heap_B=3008
+mem_heap_extra_B=248
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=1401628
+mem_heap_B=2968
+mem_heap_extra_B=232
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=1401690
+mem_heap_B=2928
+mem_heap_extra_B=216
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=1401732
+mem_heap_B=2888
+mem_heap_extra_B=200
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=1401794
+mem_heap_B=2848
+mem_heap_extra_B=184
+mem_stacks_B=0
+heap_tree=detailed
+n7: 2848 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 1592 0x400C8D: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 552 0x53C311B: __fopen_internal (iofopen.c:69)
+  n0: 552 0x400C20: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 384 0x40416D: std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >::_M_insert_aux(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, std::set<int, std::less<int>, std::allocator<int> > const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 384 0x401004: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n1: 240 0x402EFD: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n2: 240 0x4014C8: hash(std::vector<int, std::allocator<int> >) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 200 0x401FC3: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 200 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 40 0x401B3C: dfs(std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > >) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 40 0x401076: main (in /home/zinc/ntua/pl1/ex2/a.out)
+ n2: 40 0x403C09: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_copy(std::_Rb_tree_node<int> const*, std::_Rb_tree_node<int>*) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 40 0x404795: void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 40 0x404C3B: void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 40 0x401034: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 0 in 13 places, all below massif's threshold (01.00%)
+ n2: 40 0x403C60: std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_copy(std::_Rb_tree_node<int> const*, std::_Rb_tree_node<int>*) (in /home/zinc/ntua/pl1/ex2/a.out)
+  n1: 40 0x404795: void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+   n1: 40 0x404C3B: void std::__insertion_sort<__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)> >(__gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__normal_iterator<std::set<int, std::less<int>, std::allocator<int> >*, std::vector<std::set<int, std::less<int>, std::allocator<int> >, std::allocator<std::set<int, std::less<int>, std::allocator<int> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(std::set<int, std::less<int>, std::allocator<int> >, std::set<int, std::less<int>, std::allocator<int> >)>) (in /home/zinc/ntua/pl1/ex2/a.out)
+    n0: 40 0x401034: main (in /home/zinc/ntua/pl1/ex2/a.out)
+  n0: 0 in 8 places, all below massif's threshold (01.00%)
+ n0: 0 in 17 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=69
+#-----------
+time=1401836
+mem_heap_B=2808
+mem_heap_extra_B=168
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=1401894
+mem_heap_B=2768
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=1401939
+mem_heap_B=2384
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty

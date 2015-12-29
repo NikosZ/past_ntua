@@ -1,0 +1,65 @@
+	\documentclass{article}
+\usepackage{graphicx,fancyhdr,amsmath,amssymb,amsthm,subfig,url,hyperref}
+\usepackage[margin=1in]{geometry}
+\usepackage{xltxtra}
+\usepackage{xgreek}
+\usepackage{amsfonts}
+\usepackage{listings}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\setmainfont[Mapping=tex-text]{Times New Roman}
+%----------------------- Macros and Definitions --------------------------
+
+%% FILL THIS OUT
+\newcommand{\studentname}{Νικόλαος Ζαρίφης}
+\newcommand{\suid}{03112178}
+\newcommand{\exerciseset}{ SET 1}
+%% END
+
+
+
+\renewcommand{\theenumi}{\bf \Alph{enumi}}
+
+%\theoremstyle{plain}
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{lemma}[theorem]{Lemma}
+
+\fancypagestyle{plain}{}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RO,LE]{\bfseries\large NTUA}
+\fancyhead[LO,RE]{\bfseries\large Στοχαστικές Ανελίξεις}
+\fancyfoot[LO,RE]{\bfseries\large \studentname: nick.zarifis@hotmail.com}
+\fancyfoot[RO,LE]{\bfseries\thepage}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+
+\graphicspath{{figures/}}
+
+%-------------------------------- Title ----------------------------------
+
+\title{Στοχαστικές Ανελίξεις\\ \exerciseset}
+\author{\studentname \qquad  ID: \suid}
+
+%--------------------------------- Text ----------------------------------
+
+\begin{document}
+\maketitle
+
+\section*{Άσκηση 1}
+Σταν άσκηση είχαμε υπολογίσει ότι η πιθανότητα είναι περίπου ίση με 0,04 , εδώ πέρα τρέχοντας το πρόγραμμα βλέπουμε διαφορά αποτελέσματα, αρκετά κοντά στο αποτέλεσμα όμως υπάρχει σφάλμα ίσο με {$10^{2}$ το πολύ.Ενδείκτηκα τα αποτελέσματα είναι:
+	\lstinputlisting{ex1.txt}
+	\section*{Άσκηση 2}
+Αλλάζοντας στο πρόγραμμα την μεταβλήτη N κι θετωντάς την ίση με 100000 αναμένουμε καλύτερο αποτέλεσμα (Νομος Μεγάλων αριθμών).Έχουμε το ακόλουθο αποτελέσμα:
+\lstinputlisting{ex2.txt}
+\section*{Άσκηση 3}
+Αλλάζοντας το init\_probs βάζοντας 1 στην κατάσταση 3,
+Βλέπουμε το αποτέλεσμα είναι πολύ κοντά γιατί για να πάμε ξανά στην κατάσταση 1 πρέπει να περάσουμε από την 3 .
+\begin{frame} So we estimate the Pr[X\_(20) in 1|X\_3 = 1] by 0.03869\end{frame} . Υποψιαζόμαστε αν κι φαίνεται απο τον πίνακα μετάβασεις ότι η αλυσίδα είναι ανεξάρτητη της αρχικής κατανομής.
+\section*{Άσκηση 4}
+Έχουμε υπολογίσει ότι η πιθανότητα είναι ίση με $a_n = \frac{2}{12} + \frac{10}{12} *(\frac{-1}{11})^n$ (μετατρέποντας το πρόβλημα σε ενα ισοδύναμο 2χ2 παιχνίδι κι υπολογίζοντας ιδιοτιμές κτλπ). Όποτε θα τρέξω για διαφορά n το πρόγραμμά να δω πόσο κοντά είναι τα αποτελέσματα.Γιαυτό το λόγο έφτιαξα ενα μικρό script, αλλά έβαλα λίγα steps γιατί κάθε επανάληψη του προγράμματος παίρνει αρκετή ώρα. Κι τα αποτελέσματα που έβγαλε είναι:
+\lstinputlisting{ask32.txt}
+Script: ask32.sh prog: ex32.py
+\section*{Άσκηση 5}
+Η πιθανότητα νίκη είναι ίση με  0.73762 . Το πρόγραμμα είναι το αρχείο ex4.py.
+\end{document}

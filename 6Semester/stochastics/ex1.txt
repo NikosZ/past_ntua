@@ -1,0 +1,20 @@
+We executed 1000  times the first 20 steps of the markov chain and we captured the running state in state '1'  45 times
+So we estimate the Pr[X_(20) in 1|X_1 = 1] by 0.045
+We executed 1000  times the first 20 steps of the markov chain and we captured the running state in state '1'  44 times
+So we estimate the Pr[X_(20) in 1|X_1 = 1] by 0.044
+We executed 1000  times the first 20 steps of the markov chain and we captured the running state in state '1'  43 times
+So we estimate the Pr[X_(20) in 1|X_1 = 1] by 0.043
+We executed 1000  times the first 20 steps of the markov chain and we captured the running state in state '1'  44 times
+So we estimate the Pr[X_(20) in 1|X_1 = 1] by 0.044
+We executed 1000  times the first 20 steps of the markov chain and we captured the running state in state '1'  39 times
+So we estimate the Pr[X_(20) in 1|X_1 = 1] by 0.039
+We executed 1000  times the first 20 steps of the markov chain and we captured the running state in state '1'  43 times
+So we estimate the Pr[X_(20) in 1|X_1 = 1] by 0.043
+We executed 1000  times the first 20 steps of the markov chain and we captured the running state in state '1'  36 times
+So we estimate the Pr[X_(20) in 1|X_1 = 1] by 0.036
+We executed 1000  times the first 20 steps of the markov chain and we captured the running state in state '1'  38 times
+So we estimate the Pr[X_(20) in 1|X_1 = 1] by 0.038
+We executed 1000  times the first 20 steps of the markov chain and we captured the running state in state '1'  48 times
+So we estimate the Pr[X_(20) in 1|X_1 = 1] by 0.048
+We executed 1000  times the first 20 steps of the markov chain and we captured the running state in state '1'  46 times
+So we estimate the Pr[X_(20) in 1|X_1 = 1] by 0.046

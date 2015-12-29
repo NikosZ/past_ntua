@@ -1,0 +1,28 @@
+So we estimate the Pr[X_(2) in 1|X_1 = 1] by 0.17454
+The Pr that we had calculated was 0.173554
+So we estimate the Pr[X_(3) in 1|X_1 = 1] by 0.16433
+The Pr that we had calculated was 0.166041
+So we estimate the Pr[X_(4) in 1|X_1 = 1] by 0.16682
+The Pr that we had calculated was 0.166724
+So we estimate the Pr[X_(5) in 1|X_1 = 1] by 0.16596
+The Pr that we had calculated was 0.166661
+So we estimate the Pr[X_(6) in 1|X_1 = 1] by 0.16518
+The Pr that we had calculated was 0.166667
+So we estimate the Pr[X_(7) in 1|X_1 = 1] by 0.16842
+The Pr that we had calculated was 0.166667
+So we estimate the Pr[X_(8) in 1|X_1 = 1] by 0.16753
+The Pr that we had calculated was 0.166667
+So we estimate the Pr[X_(9) in 1|X_1 = 1] by 0.1649
+The Pr that we had calculated was 0.166667
+So we estimate the Pr[X_(10) in 1|X_1 = 1] by 0.16657
+The Pr that we had calculated was 0.166667
+So we estimate the Pr[X_(11) in 1|X_1 = 1] by 0.16598
+The Pr that we had calculated was 0.166667
+So we estimate the Pr[X_(12) in 1|X_1 = 1] by 0.16796
+The Pr that we had calculated was 0.166667
+So we estimate the Pr[X_(13) in 1|X_1 = 1] by 0.16639
+The Pr that we had calculated was 0.166667
+So we estimate the Pr[X_(14) in 1|X_1 = 1] by 0.16691
+The Pr that we had calculated was 0.166667
+So we estimate the Pr[X_(15) in 1|X_1 = 1] by 0.16581
+The Pr that we had calculated was 0.166667

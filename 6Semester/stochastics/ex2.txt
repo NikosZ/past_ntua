@@ -1,0 +1,2 @@
+We executed 100000  times the first 20 steps of the markov chain and we captured the running state in state '1'  4111 times
+So we estimate the Pr[X_(20) in 1|X_1 = 1] by 0.04111

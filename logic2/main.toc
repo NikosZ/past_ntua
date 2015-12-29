@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {1}{Ορισμοί}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Τι είναι κατηγορία;}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Categorial Model for simply-typed-lambda-calculus}{17}{0}{1}
+\beamer@sectionintoc {2}{Curry-Howard-Lambek isomorphism}{33}{0}{2}

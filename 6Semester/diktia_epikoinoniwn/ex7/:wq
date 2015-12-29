@@ -1,0 +1,12 @@
+BEGIN {
+	packet1=0
+	packet2=0}
+
+/^r/&&/cbr/ {
+		packet1--;}
+/^-/&&/cbr/ {
+	packet1++;}
+
+END{
+	printf("Packets receive id 1 %d and end time %f\n",packet1,end1);
+	}

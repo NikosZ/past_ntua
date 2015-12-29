@@ -1,0 +1,7 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+da	/home/zinc/ntua/pl1/test/da.java	/^	da(String a)$/;"	m	language:Java	class:da
+da	/home/zinc/ntua/pl1/test/da.java	/^public class da{$/;"	c	language:Java
+main	/home/zinc/ntua/pl1/test/smth.java	/^	public static void main(String []args)$/;"	m	language:Java	class:smth
+S	/home/zinc/ntua/pl1/test/da.java	/^	public String S;$/;"	f	language:Java	class:da
+smth	/home/zinc/ntua/pl1/test/smth.java	/^public class smth{$/;"	c	language:Java
+str	/home/zinc/ntua/pl1/test/da.java	/^	public char str[];$/;"	f	language:Java	class:da

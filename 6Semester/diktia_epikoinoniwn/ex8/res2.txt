@@ -1,0 +1,72 @@
+Total data received	: 0 Bytes
+Total packets received	: 0
+CBR start		: 0.250000000
+CBR end 		: 
+Mean CBR packet delay	: -nan sec
+Routing start		: 0.250000000
+Routing end		: 
+Routing delay		: -0.250000 sec
+Total data received	: 306000 Bytes
+Total packets received	: 300
+CBR start		: 0.250000000
+CBR end 		: 6.232054745
+Mean CBR packet delay	: 0.002050 sec
+Routing start		: 0.250000000
+Routing end		: 0.255313352
+Routing delay		: 0.005313 sec
+Total data received	: 278460 Bytes
+Total packets received	: 273
+CBR start		: 0.250000000
+CBR end 		: 6.232075145
+Mean CBR packet delay	: 0.224869 sec
+Routing start		: 0.250000000
+Routing end		: 2.056859952
+Routing delay		: 1.806860 sec
+Total data received	: 306000 Bytes
+Total packets received	: 300
+CBR start		: 0.250000000
+CBR end 		: 6.232335945
+Mean CBR packet delay	: 0.002051 sec
+Routing start		: 0.250000000
+Routing end		: 0.263220030
+Routing delay		: 0.013220 sec
+Total data received	: 306000 Bytes
+Total packets received	: 300
+CBR start		: 0.250000000
+CBR end 		: 6.232236745
+Mean CBR packet delay	: 0.002059 sec
+Routing start		: 0.250000000
+Routing end		: 0.267034257
+Routing delay		: 0.017034 sec
+Total data received	: 306000 Bytes
+Total packets received	: 300
+CBR start		: 0.250000000
+CBR end 		: 6.234656091
+Mean CBR packet delay	: 0.004470 sec
+Routing start		: 0.250000000
+Routing end		: 0.272863083
+Routing delay		: 0.022863 sec
+Total data received	: 278460 Bytes
+Total packets received	: 273
+CBR start		: 0.250000000
+CBR end 		: 6.234716891
+Mean CBR packet delay	: 0.228748 sec
+Routing start		: 0.250000000
+Routing end		: 2.069849418
+Routing delay		: 1.819849 sec
+Total data received	: 306000 Bytes
+Total packets received	: 300
+CBR start		: 0.250000000
+CBR end 		: 6.236736636
+Mean CBR packet delay	: 0.006908 sec
+Routing start		: 0.250000000
+Routing end		: 0.286351501
+Routing delay		: 0.036352 sec
+Total data received	: 92820 Bytes
+Total packets received	: 91
+CBR start		: 0.250000000
+CBR end 		: 6.345575639
+Mean CBR packet delay	: 0.692850 sec
+Routing start		: 0.250000000
+Routing end		: 5.708957803
+Routing delay		: 5.458958 sec
